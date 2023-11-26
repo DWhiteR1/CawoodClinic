@@ -4,3 +4,8 @@
 
 /.vs/CawoodClinic/FileContentIndex
 /CawoodClinic.Blazor/bin/Debug/net8.0
+/.vs
+/CawoodClinic.Blazor/Properties
+/CawoodClinic.Blazor/.vs/CawoodClinic.Blazor
+/CawoodClinic.Blazor/obj
+/CawoodClinic.Blazor/wwwroot/bootstrap
