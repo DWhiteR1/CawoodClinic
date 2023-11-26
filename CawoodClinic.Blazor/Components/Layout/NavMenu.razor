@@ -1,0 +1,128 @@
+﻿@implements IDisposable
+
+@inject NavigationManager NavigationManager
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Cawood Clinic Manager</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()" >
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <AuthorizeView>
+            <Authorized>
+                <AuthorizeView Context="MaintainUsers" Policy="CanMaintainUsers">
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/users">
+                            <span class="bi bi-person" aria-hidden="true"></span> Users
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/Account/Register">
+                            <span class="bi bi-person" aria-hidden="true"></span> Register
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/Account/Manage">
+                            <span class="bi bi-person-fill" aria-hidden="true"></span> @context.User.Identity?.Name
+                        </NavLink>
+                    </div>
+                </AuthorizeView>
+                <AuthorizeView Context="MaintainCompanies" Policy="CanMaintainCompanies">
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/companiespage">
+                            <span class="bi bi-person" aria-hidden="true"></span> Companies
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="/bankdetails">
+                            <span class="bi bi-person" aria-hidden="true"></span> Banking Details
+                        </NavLink>
+                    </div>
+                </AuthorizeView>
+                <div class="nav-item px-3">
+                    <form action="Account/Logout" method="post">
+                        <AntiforgeryToken />
+                        <input type="hidden" name="ReturnUrl" value="@currentUrl" />
+                        <button type="submit" class="nav-link">
+                            <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                        </button>
+                    </form>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Account/Login">
+                        <span class="bi bi-person-badge-nav-menu" aria-hidden="true"></span> Login
+                    </NavLink>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+    </nav>
+    <div style="position: absolute; left: 5px; bottom: 5px; padding: 20px; background-color: white; border: 0px;
+         border-radius: 5px" ;>
+        <svg width="199.95134"
+             height="50.03326"
+             viewBox="0 0 52.903792 13.237967"
+             version="1.1"
+             id="svg5"
+             xml:space="preserve"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs2" /><g id="g898"
+                                                                          transform="scale(1.4350032)"><text xml:space="preserve"
+                                                                                                             style="font-size:4.08975px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#4c7dae;fill-opacity:1;stroke-width:0.000241522;paint-order:stroke markers fill"
+                                                                                                             x="10.73563"
+                                                                                                             y="4.6585016"
+                                                                                                             id="text2362"
+                                                                                                             transform="scale(0.96253265,1.0389258)"><tspan id="tspan2360"
+                                                                                                                                                            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Albertus Nova';-inkscape-font-specification:'Albertus Nova';fill:#4c7dae;fill-opacity:1;stroke-width:0.000241522"
+                                                                                                                                                            x="10.73563"
+                                                                                                                                                            y="4.6585016">Cawood</tspan></text><text xml:space="preserve"
+                                                                                                                                                                                                     style="font-size:4.03378px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#4c7dae;fill-opacity:1;stroke-width:0.000238216;paint-order:stroke markers fill"
+                                                                                                                                                                                                     x="28.026833"
+                                                                                                                                                                                                     y="4.6364388"
+                                                                                                                                                                                                     id="text2362-5-4"
+                                                                                                                                                                                                     transform="scale(0.94935623,1.0533454)"><tspan id="tspan2360-1-3"
+                                                                                                                                                                                                                                                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Albertus Nova';-inkscape-font-specification:'Albertus Nova';fill:#4c7dae;fill-opacity:1;stroke-width:0.000238216"
+                                                                                                                                                                                                                                                    x="28.026833"
+                                                                                                                                                                                                                                                    y="4.6364388">Clinic</tspan></text><path id="path2711-6"
+                                                                                                                                                                                                                                                                                             style="display:inline;fill:#2f6cb6;fill-opacity:1;stroke-width:0.000832755;paint-order:stroke markers fill"
+                                                                                                                                                                                                                                                                                             d="M 0.08700585,2.639173 C 0.03344808,2.6954195 -8.2492971e-8,2.7708627 -8.2492971e-8,2.8547273 V 6.3520408 C -8.2492971e-8,6.5261892 0.14126894,6.666361 0.31666929,6.666361 H 2.5101534 A 7.5686159,7.745544 0 0 0 4.7210384,5.2360181 9.3344399,9.5526469 0 0 1 0.08700585,2.639173 Z" /><path id="rect2655-2-89"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               style="display:inline;fill:#85d0e0;fill-opacity:0.988;stroke-width:0.000306506;paint-order:stroke markers fill"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               d="M 7.0751436,2.5644062 A 7.9845604,8.1712122 0 0 1 5.2693446,5.337769 9.3344399,9.5526469 0 0 0 6.7051734,5.4531499 9.3344399,9.5526469 0 0 0 9.2247327,5.0922727 V 2.8787233 c 0,-0.1741484 -0.1411143,-0.3143171 -0.3165126,-0.3143171 z" /><path id="rect2655-2-8"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="display:inline;fill:#4baa40;fill-opacity:0.988;stroke-width:0.000306506;paint-order:stroke markers fill"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     d="M 9.2248113,5.0920392 A 9.3344399,9.5526469 0 0 1 6.705252,5.4474285 9.3344399,9.5526469 0 0 1 5.2722447,5.3317351 7.9845604,8.1712122 0 0 1 2.5584512,7.1306363 v 1.7777386 c 0,0.1754013 0.1401696,0.3166682 0.314318,0.3166682 h 3.497315 c 0.174145,0 0.3144745,-0.1412669 0.3144745,-0.3166682 V 6.6846355 h 2.22374 c 0.1753982,0 0.3165126,-0.1401717 0.3165126,-0.3143201 z" /><path id="path2946"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     style="display:inline;fill:#cf91b6;fill-opacity:1;stroke-width:0.000832755;paint-order:stroke markers fill"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     d="M 2.8547273,-2.8995981e-8 C 2.6805819,-2.8995981e-8 2.5404093,0.14111215 2.5404093,0.3165125 V 2.5404102 H 0.31666929 c -0.0893873,0 -0.16967681,0.036561 -0.22715524,0.095314 A 9.3344399,9.5526469 0 0 0 4.7288767,5.2360181 7.5686159,7.745544 0 0 0 6.6665168,2.3930488 V 0.3165125 C 6.6665168,0.14111215 6.5261873,-2.8995984e-8 6.3520423,-2.8995984e-8 Z" /></g></svg>
+    </div>
+</div>
+
+@code {
+    private string? currentUrl;
+
+    protected override void OnInitialized()
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(NavigationManager.Uri);
+        NavigationManager.LocationChanged += OnLocationChanged;
+    }
+
+    private void OnLocationChanged(object? sender, LocationChangedEventArgs e)
+    {
+        currentUrl = NavigationManager.ToBaseRelativePath(e.Location);
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        NavigationManager.LocationChanged -= OnLocationChanged;
+    }
+}
+
