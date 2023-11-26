@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CawoodClinic/FileContentIndex
+/CawoodClinic.Blazor/bin/Debug/net8.0
