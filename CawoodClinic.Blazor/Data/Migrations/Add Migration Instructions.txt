@@ -1,0 +1,11 @@
+﻿Open Package Manager Console and run the following commands:
+
+At the top change the Default project to CawoodClinic.Blazor
+//Change directory to the project folder
+cd CawoodClinic.Blazor
+
+//Create the migration
+dotnet ef migrations add Migration-Name --context ApplicationDbContext
+
+//Update the database
+dotnet ef database update --context ApplicationDbContext
