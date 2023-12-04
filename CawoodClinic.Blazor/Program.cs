@@ -1,6 +1,7 @@
 using CawoodClinic.Blazor.Components;
 using CawoodClinic.Blazor.Components.Account;
 using CawoodClinic.Blazor.Data;
+using CawoodClinic.Blazor.Services;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -55,7 +56,7 @@ builder.Services.AddAuthorization(options =>
 });
 
 
-
+builder.Services.AddSingleton<FullScreenService>();
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
 var app = builder.Build();

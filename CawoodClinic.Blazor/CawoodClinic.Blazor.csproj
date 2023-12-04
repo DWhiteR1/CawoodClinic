@@ -18,6 +18,9 @@
 
   <ItemGroup>
     <Folder Include="Database\" />
+    <Folder Include="Data\Business\" />
+    <Folder Include="Data\SQL Scripts\" />
+    <Folder Include="Data\Partial\" />
   </ItemGroup>
 
 </Project>

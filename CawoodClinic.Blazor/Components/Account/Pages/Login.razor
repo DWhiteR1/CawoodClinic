@@ -2,6 +2,7 @@
 
 @using CawoodClinic.Blazor.Components.Layout
 @using System.ComponentModel.DataAnnotations
+@using CawoodClinic.Blazor.Services
 @using Microsoft.AspNetCore.Authentication
 @using Microsoft.AspNetCore.Identity
 @using CawoodClinic.Blazor.Data
@@ -10,70 +11,57 @@
 @inject ILogger<Login> Logger
 @inject NavigationManager NavigationManager
 @inject IdentityRedirectManager RedirectManager
+@inject FullScreenService fullScreenService
+
 
 <PageTitle>Log in</PageTitle>
 
-@* <h1>Log in</h1>
-<div class="row">
-    <div class="col-md-4"> *@
-        <section class="h-100">
-            <StatusMessage Message="@errorMessage" />
-            <div class="container py-5 h-100">
-                <div class="row d-flex justify-content-center align-items-center h-100">
-                    <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-                        <div class="card shadow text-white" style="border-radius: 1rem; background-color:#0099cb">
-                            <div class="card-body p-5 text-center">
-                                <div class="mb-md-5 mt-md-4 pb-5">
-                                    <EditForm Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
-                                        <DataAnnotationsValidator />
-                                        <h2>login</h2>
-                                        <hr />
-                                        <ValidationSummary class="text-danger" role="alert" />
-                                        <div class="form-floating mb-3">
-                                            <InputText @bind-Value="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                                            <label for="email" class="form-label">Email</label>
-                                            <ValidationMessage For="() => Input.Email" class="text-danger" />
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <InputText type="password" @bind-Value="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
-                                            <label for="password" class="form-label">Password</label>
-                                            <ValidationMessage For="() => Input.Password" class="text-danger" />
-                                        </div>
-                                        <div class="checkbox mb-3">
-                                            <label class="form-label">
-                                                <InputCheckbox @bind-Value="Input.RememberMe" class="darker-border-checkbox form-check-input" />
-                                                Remember me
-                                            </label>
-                                        </div>
-                                        <div>
-                                            <button type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
-                                        </div>
-                                        <br/>
-                                        <div>
-                                            <p>
-                                                <a href="Account/ForgotPassword">Forgot your password?</a>
-                                            </p>
-                                            <p>
-                                                <a href="Account/ResendEmailConfirmation">Resend email confirmation</a>
-                                            </p>
-                                        </div>
-                                    </EditForm>
-                                </div
+<section class="h-100">
+    <StatusMessage Message="@errorMessage" />
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card shadow" style="border-radius: 1rem; background: linear-gradient(to bottom, #6f8fb2, #3f658f);">
+                    <div class="card-body mb-md-5 mt-md-4 pb-5 p-5 text-center">
+                        <EditForm Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
+                            <DataAnnotationsValidator />
+                            <h2 style="color:white">login</h2>
+                            <hr />
+                            <ValidationSummary class="text-danger" role="alert" />
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" class="form-label text-white mt-4">Email address</label>
+                                <InputText type="email" @bind-Value="Input.Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" class="form-label text-white mt-4">Password</label>
+                                <InputText type="password" @bind-Value="Input.Password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off" />
+                            </div>
+                            <br/>
+                            <div class="checkbox mb-3">
+                                <label class="form-label text-white">
+                                    <InputCheckbox @bind-Value="Input.RememberMe" class="darker-border-checkbox form-check-input" />
+                                    Remember me
+                                </label>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-100 btn btn-lg btn-primary">Log in</button>
+                            </div>
+                            <br />
+                            <div>
+                                <p>
+                                    <a href="Account/ForgotPassword" style="color:white">Forgot your password?</a>
+                                </p>
+                                <p>
+                                    <a href="Account/ResendEmailConfirmation" style="color:white">Resend email confirmation</a>
+                                </p>
+                            </div>
+                        </EditForm>
                     </div>
                 </div>
             </div>
-        </section>
-@*     </div>
-    <div class="col-md-6 col-md-offset-2">
-        <section>
-            <h3>Use another service to log in.</h3>
-            <hr />
-            <ExternalLoginPicker />
-        </section>
+        </div>
     </div>
-</div> *@
+</section>
 
 @code {
     private string? errorMessage;
@@ -89,7 +77,9 @@
 
     protected override async Task OnInitializedAsync()
     {
-        if (HttpMethods.IsGet(HttpContext.Request.Method))
+        fullScreenService.ShowFullScreen = true;
+
+        if (HttpContext is not null && HttpMethods.IsGet(HttpContext.Request.Method))
         {
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
@@ -103,6 +93,7 @@
         var result = await SignInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
         if (result.Succeeded)
         {
+            fullScreenService.ShowFullScreen = false;
             Logger.LogInformation("User logged in.");
             RedirectManager.RedirectTo(ReturnUrl);
         }

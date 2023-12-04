@@ -10,8 +10,8 @@ main {
 }
 
 .sidebar {
-    background-color: #2f6cb6;
-}
+    background: linear-gradient(to left, #6f8fb2, #3f658f);
+    }
 
 .content {
     padding: 0px;
