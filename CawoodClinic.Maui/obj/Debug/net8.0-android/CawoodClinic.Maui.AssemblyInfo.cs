@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CawoodClinic.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5d6db4c28edc5e72d4eebfd01b065c008a7e448e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CawoodClinic.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CawoodClinic.Maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

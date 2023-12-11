@@ -53,6 +53,9 @@ namespace CawoodClinic.Blazor.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("ParentId")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("PasswordHash")
                         .HasColumnType("TEXT");
 
@@ -62,8 +65,8 @@ namespace CawoodClinic.Blazor.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("RegionId")
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid?>("RegionId")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("TEXT");
@@ -84,36 +87,279 @@ namespace CawoodClinic.Blazor.Migrations
                         .IsUnique()
                         .HasDatabaseName("UserNameIndex");
 
+                    b.HasIndex("ParentId");
+
                     b.HasIndex("RegionId");
 
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("CawoodClinic.Blazor.Data.Region", b =>
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Appointment", b =>
                 {
-                    b.Property<int>("RegionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("AppointmentNotes")
+                        .HasMaxLength(500)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("AppointmentReason")
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("AppointmentStatusId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateOfAppointment")
+                        .HasColumnType("TEXT");
 
                     b.Property<bool>("IsDeleted")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER")
-                        .HasDefaultValue(false);
+                        .HasColumnType("INTEGER");
+
+                    b.Property<Guid>("PatientId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(450)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppointmentStatusId");
+
+                    b.HasIndex("PatientId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Appointments");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.AppointmentStatus", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("ParentId")
+                    b.HasKey("Id");
+
+                    b.ToTable("AppointmentStatuses");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Dbsync", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("RegionId1")
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("RegionId");
+                    b.Property<DateTime>("LastSyncDate")
+                        .HasColumnType("TEXT");
 
-                    b.HasIndex("RegionId1");
+                    b.Property<long>("LastSyncVersion")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<Guid?>("LastUpdatedDeviceId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NameSpace")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RetentionDays")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("SyncDirection")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("SyncOrder")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("TableName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Dbsyncs");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Measurement", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateOfMeasurement")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("MeasurementTypeId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("PatientId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Value")
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MeasurementTypeId");
+
+                    b.HasIndex("PatientId");
+
+                    b.ToTable("Measurements");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.MeasurementType", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("DataTypeOfMeasurement")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("FormatOfMeasurement")
+                        .HasMaxLength(75)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MeasurementTypes");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.MenuItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("IconName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<Guid?>("LastUpdatedDeviceId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("MenuName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("MenuOrder")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<bool>("MenuToggleEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("NameSpace")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PageName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("ParentId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MenuItems");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Patient", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ContactNumber")
+                        .HasMaxLength(25)
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateOnly?>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EmailAddress")
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Gender")
+                        .HasMaxLength(10)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("IdNumber")
+                        .HasMaxLength(25)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhysicalAddress")
+                        .HasMaxLength(255)
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid?>("RegionId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Surname")
+                        .IsRequired()
+                        .HasMaxLength(75)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RegionId");
+
+                    b.ToTable("Patients");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Region", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid?>("ParentId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
 
                     b.ToTable("Regions");
                 });
@@ -248,18 +494,83 @@ namespace CawoodClinic.Blazor.Migrations
 
             modelBuilder.Entity("CawoodClinic.Blazor.Data.ApplicationUser", b =>
                 {
+                    b.HasOne("CawoodClinic.Blazor.Data.ApplicationUser", "Parent")
+                        .WithMany("InverseParent")
+                        .HasForeignKey("ParentId");
+
                     b.HasOne("CawoodClinic.Blazor.Data.Region", "Region")
                         .WithMany()
                         .HasForeignKey("RegionId");
+
+                    b.Navigation("Parent");
+
+                    b.Navigation("Region");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Appointment", b =>
+                {
+                    b.HasOne("CawoodClinic.Blazor.Data.AppointmentStatus", "AppointmentStatus")
+                        .WithMany("Appointments")
+                        .HasForeignKey("AppointmentStatusId")
+                        .IsRequired()
+                        .HasConstraintName("FK_Appointments_AppointmentStatus");
+
+                    b.HasOne("CawoodClinic.Blazor.Data.Patient", "Patient")
+                        .WithMany("Appointments")
+                        .HasForeignKey("PatientId")
+                        .IsRequired()
+                        .HasConstraintName("FK_Appointments_Patients");
+
+                    b.HasOne("CawoodClinic.Blazor.Data.ApplicationUser", "User")
+                        .WithMany("Appointments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppointmentStatus");
+
+                    b.Navigation("Patient");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Measurement", b =>
+                {
+                    b.HasOne("CawoodClinic.Blazor.Data.MeasurementType", "MeasurementType")
+                        .WithMany("Measurements")
+                        .HasForeignKey("MeasurementTypeId")
+                        .IsRequired()
+                        .HasConstraintName("FK_Measurement_MeasurementTypes");
+
+                    b.HasOne("CawoodClinic.Blazor.Data.Patient", "Patient")
+                        .WithMany("Measurements")
+                        .HasForeignKey("PatientId")
+                        .IsRequired()
+                        .HasConstraintName("FK_Measurement_Patients");
+
+                    b.Navigation("MeasurementType");
+
+                    b.Navigation("Patient");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Patient", b =>
+                {
+                    b.HasOne("CawoodClinic.Blazor.Data.Region", "Region")
+                        .WithMany("Patients")
+                        .HasForeignKey("RegionId")
+                        .HasConstraintName("FK_Patients_Regions");
 
                     b.Navigation("Region");
                 });
 
             modelBuilder.Entity("CawoodClinic.Blazor.Data.Region", b =>
                 {
-                    b.HasOne("CawoodClinic.Blazor.Data.Region", null)
-                        .WithMany("ChildRegions")
-                        .HasForeignKey("RegionId1");
+                    b.HasOne("CawoodClinic.Blazor.Data.Region", "Parent")
+                        .WithMany("InverseParent")
+                        .HasForeignKey("ParentId")
+                        .HasConstraintName("FK_Regions_Regions");
+
+                    b.Navigation("Parent");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -313,9 +624,35 @@ namespace CawoodClinic.Blazor.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.ApplicationUser", b =>
+                {
+                    b.Navigation("Appointments");
+
+                    b.Navigation("InverseParent");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.AppointmentStatus", b =>
+                {
+                    b.Navigation("Appointments");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.MeasurementType", b =>
+                {
+                    b.Navigation("Measurements");
+                });
+
+            modelBuilder.Entity("CawoodClinic.Blazor.Data.Patient", b =>
+                {
+                    b.Navigation("Appointments");
+
+                    b.Navigation("Measurements");
+                });
+
             modelBuilder.Entity("CawoodClinic.Blazor.Data.Region", b =>
                 {
-                    b.Navigation("ChildRegions");
+                    b.Navigation("InverseParent");
+
+                    b.Navigation("Patients");
                 });
 #pragma warning restore 612, 618
         }

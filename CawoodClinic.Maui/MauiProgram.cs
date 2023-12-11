@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using CawoodClinic.Maui.ViewModels;
+using CawoodClinic.Maui.Views;
 
 namespace CawoodClinic.Maui
 {
@@ -18,6 +20,10 @@ namespace CawoodClinic.Maui
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<WeightlossProgressionViewModel>();
+            builder.Services.AddSingleton<WeightlossProgressionPage>();
+
+
 
             return builder.Build();
         }
