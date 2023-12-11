@@ -22,23 +22,20 @@ int anim btn_radio_to_off_mtrl_ring_outer_path_animation 0x0
 int anim btn_radio_to_on_mtrl_dot_group_animation 0x0
 int anim btn_radio_to_on_mtrl_ring_outer_animation 0x0
 int anim btn_radio_to_on_mtrl_ring_outer_path_animation 0x0
+int anim fragment_close_enter 0x0
+int anim fragment_close_exit 0x0
+int anim fragment_fade_enter 0x0
+int anim fragment_fade_exit 0x0
 int anim fragment_fast_out_extra_slow_in 0x0
-int anim ic_checkbox_checked_to_indeterminate_border 0x0
-int anim ic_checkbox_checked_to_indeterminate_check 0x0
-int anim ic_checkbox_checked_to_unchecked_border 0x0
-int anim ic_checkbox_checked_to_unchecked_check 0x0
-int anim ic_checkbox_indeterminate_to_checked_check 0x0
-int anim ic_checkbox_indeterminate_to_unchecked_check 0x0
-int anim ic_checkbox_unchecked_to_checked_border 0x0
-int anim ic_checkbox_unchecked_to_checked_check 0x0
-int anim ic_checkbox_unchecked_to_indeterminate_check 0x0
-int animator btn_state_list_anim 0x0
+int anim fragment_open_enter 0x0
+int anim fragment_open_exit 0x0
 int animator fragment_close_enter 0x0
 int animator fragment_close_exit 0x0
 int animator fragment_fade_enter 0x0
 int animator fragment_fade_exit 0x0
 int animator fragment_open_enter 0x0
 int animator fragment_open_exit 0x0
+int attr action 0x0
 int attr actionBarDivider 0x0
 int attr actionBarItemBackground 0x0
 int attr actionBarPopupTheme 0x0
@@ -82,6 +79,7 @@ int attr alertDialogTheme 0x0
 int attr allowStacking 0x0
 int attr alpha 0x0
 int attr alphabeticModifiers 0x0
+int attr argType 0x0
 int attr arrowHeadLength 0x0
 int attr arrowShaftLength 0x0
 int attr autoCompleteTextViewStyle 0x0
@@ -140,7 +138,11 @@ int attr contentInsetStart 0x0
 int attr contentInsetStartWithNavigation 0x0
 int attr controlBackground 0x0
 int attr customNavigationLayout 0x0
+int attr data 0x0
+int attr dataPattern 0x0
+int attr defaultNavHost 0x0
 int attr defaultQueryHint 0x0
+int attr destination 0x0
 int attr dialogCornerRadius 0x0
 int attr dialogPreferredPadding 0x0
 int attr dialogTheme 0x0
@@ -166,6 +168,8 @@ int attr editTextColor 0x0
 int attr editTextStyle 0x0
 int attr elevation 0x0
 int attr emojiCompatEnabled 0x0
+int attr enterAnim 0x0
+int attr exitAnim 0x0
 int attr expandActivityOverflowButtonDrawable 0x0
 int attr fastScrollEnabled 0x0
 int attr fastScrollHorizontalThumbDrawable 0x0
@@ -187,6 +191,7 @@ int attr fontVariationSettings 0x0
 int attr fontWeight 0x0
 int attr gapBetweenBars 0x0
 int attr goIcon 0x0
+int attr graph 0x0
 int attr height 0x0
 int attr hideOnContentScroll 0x0
 int attr homeAsUpIndicator 0x0
@@ -202,6 +207,7 @@ int attr isLightTheme 0x0
 int attr itemPadding 0x0
 int attr lStar 0x0
 int attr lastBaselineToBottomHeight 0x0
+int attr launchSingleTop 0x0
 int attr layout 0x0
 int attr layoutManager 0x0
 int attr lineHeight 0x0
@@ -225,11 +231,14 @@ int attr logoDescription 0x0
 int attr maxButtonHeight 0x0
 int attr measureWithLargestChild 0x0
 int attr menu 0x0
+int attr mimeType 0x0
 int attr multiChoiceItemLayout 0x0
+int attr navGraph 0x0
 int attr navigationContentDescription 0x0
 int attr navigationIcon 0x0
 int attr navigationMode 0x0
 int attr nestedScrollViewStyle 0x0
+int attr nullable 0x0
 int attr numericModifiers 0x0
 int attr overlapAnchor 0x0
 int attr paddingBottomNoButtons 0x0
@@ -239,6 +248,10 @@ int attr paddingTopNoTitle 0x0
 int attr panelBackground 0x0
 int attr panelMenuListTheme 0x0
 int attr panelMenuListWidth 0x0
+int attr popEnterAnim 0x0
+int attr popExitAnim 0x0
+int attr popUpTo 0x0
+int attr popUpToInclusive 0x0
 int attr popupMenuStyle 0x0
 int attr popupTheme 0x0
 int attr popupWindowStyle 0x0
@@ -273,10 +286,8 @@ int attr spinnerStyle 0x0
 int attr splitTrack 0x0
 int attr srcCompat 0x0
 int attr stackFromEnd 0x0
+int attr startDestination 0x0
 int attr state_above_anchor 0x0
-int attr state_has_error 0x0
-int attr state_indeterminate 0x0
-int attr state_label_moved 0x0
 int attr subMenuArrow 0x0
 int attr submitBackground 0x0
 int attr subtitle 0x0
@@ -284,11 +295,11 @@ int attr subtitleTextAppearance 0x0
 int attr subtitleTextColor 0x0
 int attr subtitleTextStyle 0x0
 int attr suggestionRowLayout 0x0
-int attr swipeRefreshLayoutProgressSpinnerBackgroundColor 0x0
 int attr switchMinWidth 0x0
 int attr switchPadding 0x0
 int attr switchStyle 0x0
 int attr switchTextAppearance 0x0
+int attr targetPackage 0x0
 int attr textAllCaps 0x0
 int attr textAppearanceLargePopupMenu 0x0
 int attr textAppearanceListItem 0x0
@@ -330,6 +341,7 @@ int attr track 0x0
 int attr trackTint 0x0
 int attr trackTintMode 0x0
 int attr ttcIndex 0x0
+int attr uri 0x0
 int attr viewInflaterClass 0x0
 int attr voiceIcon 0x0
 int attr windowActionBar 0x0
@@ -385,61 +397,13 @@ int color bright_foreground_material_dark 0x0
 int color bright_foreground_material_light 0x0
 int color button_material_dark 0x0
 int color button_material_light 0x0
-int color checkbox 0x0
-int color checkbox_disabledForegroundColor 0x0
-int color checkbox_disabledLabelColor 0x0
-int color checkbox_disabledSelectedForegroundColor 0x0
-int color checkbox_foregroundColor 0x0
-int color checkbox_labelColor 0x0
-int color checkbox_selectedForegroundColor 0x0
 int color colorAccent 0x0
 int color colorPrimary 0x0
 int color colorPrimaryDark 0x0
-int color containedButton_backgroundColor 0x0
-int color containedButton_backgroundColor_disabled 0x0
-int color containedButton_backgroundColor_focused 0x0
-int color containedButton_backgroundColor_pressed 0x0
-int color containedButton_borderColor 0x0
-int color containedButton_borderColor_disabled 0x0
-int color containedButton_borderColor_focused 0x0
-int color containedButton_borderColor_pressed 0x0
-int color containedButton_foregroundColor 0x0
-int color containedButton_foregroundColor_disabled 0x0
-int color dataForm_chevronColor 0x0
 int color dim_foreground_disabled_material_dark 0x0
 int color dim_foreground_disabled_material_light 0x0
 int color dim_foreground_material_dark 0x0
 int color dim_foreground_material_light 0x0
-int color dx_accent_color 0x0
-int color dx_accent_color_disabled 0x0
-int color dx_editor_disabled 0x0
-int color dx_editor_label 0x0
-int color editor_affix_color 0x0
-int color editor_affix_color_disabled 0x0
-int color editor_border_color 0x0
-int color editor_border_color_disabled 0x0
-int color editor_border_color_focused 0x0
-int color editor_box_background_color_disabled_filled 0x0
-int color editor_box_background_color_disabled_outlined 0x0
-int color editor_box_background_color_filled 0x0
-int color editor_box_background_color_focused_filled 0x0
-int color editor_box_background_color_focused_outlined 0x0
-int color editor_box_background_color_outlined 0x0
-int color editor_dropDownBackgroundColor 0x0
-int color editor_dropDownBorderColor 0x0
-int color editor_end_icon_color 0x0
-int color editor_end_icon_color_disabled 0x0
-int color editor_error_color 0x0
-int color editor_help_text_color 0x0
-int color editor_help_text_color_disabled 0x0
-int color editor_label_color 0x0
-int color editor_label_color_disabled 0x0
-int color editor_label_color_focused 0x0
-int color editor_placeholder_text_color 0x0
-int color editor_start_icon_color 0x0
-int color editor_start_icon_color_disabled 0x0
-int color editor_text_color 0x0
-int color editor_text_color_disabled 0x0
 int color error_color_material_dark 0x0
 int color error_color_material_light 0x0
 int color foreground_material_dark 0x0
@@ -460,16 +424,6 @@ int color material_grey_850 0x0
 int color material_grey_900 0x0
 int color notification_action_color_filter 0x0
 int color notification_icon_bg_color 0x0
-int color outlinedButton_backgroundColor 0x0
-int color outlinedButton_backgroundColor_disabled 0x0
-int color outlinedButton_backgroundColor_focused 0x0
-int color outlinedButton_backgroundColor_pressed 0x0
-int color outlinedButton_borderColor 0x0
-int color outlinedButton_borderColor_disabled 0x0
-int color outlinedButton_borderColor_focused 0x0
-int color outlinedButton_borderColor_pressed 0x0
-int color outlinedButton_foregroundColor 0x0
-int color outlinedButton_foregroundColor_disabled 0x0
 int color primary_dark_material_dark 0x0
 int color primary_dark_material_light 0x0
 int color primary_material_dark 0x0
@@ -490,16 +444,6 @@ int color switch_thumb_material_dark 0x0
 int color switch_thumb_material_light 0x0
 int color switch_thumb_normal_material_dark 0x0
 int color switch_thumb_normal_material_light 0x0
-int color textButton_backgroundColor 0x0
-int color textButton_backgroundColor_disabled 0x0
-int color textButton_backgroundColor_focused 0x0
-int color textButton_backgroundColor_pressed 0x0
-int color textButton_borderColor 0x0
-int color textButton_borderColor_disabled 0x0
-int color textButton_borderColor_focused 0x0
-int color textButton_borderColor_pressed 0x0
-int color textButton_foregroundColor 0x0
-int color textButton_foregroundColor_disabled 0x0
 int color tooltip_background_dark 0x0
 int color tooltip_background_light 0x0
 int dimen abc_action_bar_content_inset_material 0x0
@@ -583,19 +527,6 @@ int dimen abc_text_size_subhead_material 0x0
 int dimen abc_text_size_subtitle_material_toolbar 0x0
 int dimen abc_text_size_title_material 0x0
 int dimen abc_text_size_title_material_toolbar 0x0
-int dimen button_borderRounds 0x0
-int dimen button_iconIndent 0x0
-int dimen button_minHeight 0x0
-int dimen button_minWidth 0x0
-int dimen button_paddingHorizontal 0x0
-int dimen button_paddingVertical 0x0
-int dimen button_shadowElevation 0x0
-int dimen button_shadowElevation_disabled 0x0
-int dimen button_shadowElevation_pressed 0x0
-int dimen button_shadowOffset 0x0
-int dimen checkEdit_labelTextSize 0x0
-int dimen chip_icon_size 0x0
-int dimen chip_textSize 0x0
 int dimen compat_button_inset_horizontal_material 0x0
 int dimen compat_button_inset_vertical_material 0x0
 int dimen compat_button_padding_horizontal_material 0x0
@@ -603,47 +534,8 @@ int dimen compat_button_padding_vertical_material 0x0
 int dimen compat_control_corner_material 0x0
 int dimen compat_notification_large_icon_max_height 0x0
 int dimen compat_notification_large_icon_max_width 0x0
-int dimen containedButton_borderThickness 0x0
-int dimen dataForm_chevronIndent 0x0
-int dimen date_edit_picker_cell_min_size 0x0
-int dimen date_edit_picker_horizontal_spacing 0x0
-int dimen date_edit_picker_scroll_threshold 0x0
-int dimen date_edit_picker_vertical_spacing 0x0
 int dimen disabled_alpha_material_dark 0x0
 int dimen disabled_alpha_material_light 0x0
-int dimen dx_borderRounds 0x0
-int dimen editor_affix_indent 0x0
-int dimen editor_border_rounds 0x0
-int dimen editor_border_thickness 0x0
-int dimen editor_border_thickness_disabled_filled 0x0
-int dimen editor_border_thickness_disabled_outlined 0x0
-int dimen editor_border_thickness_focused 0x0
-int dimen editor_bottom_text_indent_horizontal 0x0
-int dimen editor_bottom_text_indent_top 0x0
-int dimen editor_boxPaddingHorizontal 0x0
-int dimen editor_boxPaddingVertical_filled 0x0
-int dimen editor_boxPaddingVertical_outlined 0x0
-int dimen editor_box_size 0x0
-int dimen editor_character_counter_indent_start 0x0
-int dimen editor_collapsedLabelFontSize 0x0
-int dimen editor_dropDownBorderWidth 0x0
-int dimen editor_dropDownItem_fontSize 0x0
-int dimen editor_dropDownItem_minHeight 0x0
-int dimen editor_dropDownItem_paddingEnd 0x0
-int dimen editor_dropDownItem_paddingStart 0x0
-int dimen editor_dropDownItem_paddingVertical 0x0
-int dimen editor_helperTextFontSize 0x0
-int dimen editor_icon_indent 0x0
-int dimen editor_icon_spacing 0x0
-int dimen editor_ideal_box_size 0x0
-int dimen editor_labelShakeAmplitude 0x0
-int dimen editor_label_text_border_indent 0x0
-int dimen editor_min_box_size 0x0
-int dimen editor_min_vertical_box_padding 0x0
-int dimen editor_min_width 0x0
-int dimen editor_paddingHorizontal 0x0
-int dimen editor_paddingVertical 0x0
-int dimen editor_textFontSize 0x0
 int dimen fastscroll_default_thickness 0x0
 int dimen fastscroll_margin 0x0
 int dimen fastscroll_minimum_range 0x0
@@ -672,8 +564,6 @@ int dimen notification_small_icon_size_as_large 0x0
 int dimen notification_subtext_size 0x0
 int dimen notification_top_pad 0x0
 int dimen notification_top_pad_large_text 0x0
-int dimen outlinedButton_borderThickness 0x0
-int dimen textButton_borderThickness 0x0
 int dimen tooltip_corner_radius 0x0
 int dimen tooltip_horizontal_padding 0x0
 int dimen tooltip_margin 0x0
@@ -769,46 +659,8 @@ int drawable btn_radio_off_mtrl 0x0
 int drawable btn_radio_off_to_on_mtrl_animation 0x0
 int drawable btn_radio_on_mtrl 0x0
 int drawable btn_radio_on_to_off_mtrl_animation 0x0
-int drawable ic_checkbox 0x0
-int drawable ic_checkbox_checked 0x0
-int drawable ic_checkbox_checked_to_indeterminate 0x0
-int drawable ic_checkbox_checked_to_unchecked 0x0
-int drawable ic_checkbox_indeterminate 0x0
-int drawable ic_checkbox_indeterminate_to_checked 0x0
-int drawable ic_checkbox_indeterminate_to_unchecked 0x0
-int drawable ic_checkbox_unchecked 0x0
-int drawable ic_checkbox_unchecked_to_checked 0x0
-int drawable ic_checkbox_unchecked_to_indeterminate 0x0
-int drawable ic_checked 0x0
-int drawable ic_chevron 0x0
-int drawable ic_chevron__down 0x0
-int drawable ic_chevron__up 0x0
-int drawable ic_chip_check 0x0
-int drawable ic_chip_close 0x0
-int drawable ic_circle_shape 0x0
-int drawable ic_clear 0x0
-int drawable ic_date_picker 0x0
-int drawable ic_drop_down 0x0
-int drawable ic_drop_down__down 0x0
-int drawable ic_drop_down__up 0x0
-int drawable ic_error 0x0
-int drawable ic_filter 0x0
-int drawable ic_group_down_24dp 0x0
-int drawable ic_group_up_24dp 0x0
-int drawable ic_minus 0x0
-int drawable ic_plus 0x0
-int drawable ic_search 0x0
-int drawable ic_size_l 0x0
-int drawable ic_size_m 0x0
-int drawable ic_size_s 0x0
-int drawable ic_sorting_down_24dp 0x0
-int drawable ic_sorting_up_24dp 0x0
-int drawable ic_time_picker 0x0
-int drawable ic_to_next_page 0x0
-int drawable ic_to_previous_page 0x0
-int drawable ic_visibility 0x0
-int drawable ic_visibility_off 0x0
-int drawable ic_visibility_on 0x0
+int drawable ic_launcher_background 0x0
+int drawable ic_launcher_foreground 0x0
 int drawable notification_action_background 0x0
 int drawable notification_bg 0x0
 int drawable notification_bg_low 0x0
@@ -824,7 +676,6 @@ int drawable notify_panel_notification_icon_bg 0x0
 int drawable test_level_drawable 0x0
 int drawable tooltip_frame_dark 0x0
 int drawable tooltip_frame_light 0x0
-int drawable watermark 0x0
 int id accessibility_action_clickable_span 0x0
 int id accessibility_custom_action_0 0x0
 int id accessibility_custom_action_1 0x0
@@ -884,8 +735,6 @@ int id blocking 0x0
 int id buttonPanel 0x0
 int id checkbox 0x0
 int id checked 0x0
-int id chevron__down 0x0
-int id chevron__up 0x0
 int id chronometer 0x0
 int id content 0x0
 int id contentPanel 0x0
@@ -894,23 +743,13 @@ int id customPanel 0x0
 int id decor_content_parent 0x0
 int id default_activity_button 0x0
 int id dialog_button 0x0
-int id drop_down__down 0x0
-int id drop_down__up 0x0
 int id edit_query 0x0
 int id expand_activities_button 0x0
 int id expanded_menu 0x0
 int id forever 0x0
 int id fragment_container_view_tag 0x0
-int id grid_container_view 0x0
-int id grid_footer_view 0x0
-int id grid_header_view 0x0
-int id grid_rows_scrollview 0x0
 int id group_divider 0x0
 int id home 0x0
-int id horizontal_scroll_view 0x0
-int id ic_checkbox_checked 0x0
-int id ic_checkbox_indeterminate 0x0
-int id ic_checkbox_unchecked 0x0
 int id icon 0x0
 int id icon_group 0x0
 int id image 0x0
@@ -927,6 +766,8 @@ int id listMode 0x0
 int id list_item 0x0
 int id message 0x0
 int id multiply 0x0
+int id nav_controller_view_tag 0x0
+int id nav_host_fragment_container 0x0
 int id none 0x0
 int id normal 0x0
 int id notification_background 0x0
@@ -937,7 +778,6 @@ int id on 0x0
 int id parentPanel 0x0
 int id progress_circular 0x0
 int id progress_horizontal 0x0
-int id pull_to_refresh_container 0x0
 int id radio 0x0
 int id right_icon 0x0
 int id right_side 0x0
@@ -965,9 +805,6 @@ int id src_in 0x0
 int id src_over 0x0
 int id submenuarrow 0x0
 int id submit_area 0x0
-int id swipe_button_image 0x0
-int id swipe_button_layout 0x0
-int id swipe_button_text 0x0
 int id tabMode 0x0
 int id tag_accessibility_actions 0x0
 int id tag_accessibility_clickable_spans 0x0
@@ -1001,10 +838,6 @@ int id visible_removing_fragment_view_tag 0x0
 int id wrap_content 0x0
 int integer abc_config_activityDefaultDur 0x0
 int integer abc_config_activityShortDur 0x0
-int integer animationDuration 0x0
-int integer button_animationDelay 0x0
-int integer button_animationDuration 0x0
-int integer button_shadowRotation 0x0
 int integer cancel_button_image_alpha 0x0
 int integer config_tooltipAnimTime 0x0
 int integer status_bar_notification_info_maxnum 0x0
@@ -1044,9 +877,6 @@ int layout abc_search_view 0x0
 int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
 int layout custom_dialog 0x0
-int layout drop_down_item 0x0
-int layout grid_container_view 0x0
-int layout grid_control 0x0
 int layout notification_action 0x0
 int layout notification_action_tombstone 0x0
 int layout notification_template_custom_big 0x0
@@ -1057,9 +887,10 @@ int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
 int layout select_dialog_singlechoice_material 0x0
 int layout support_simple_spinner_dropdown_item 0x0
-int layout swipe_button 0x0
 int menu example_menu 0x0
 int menu example_menu2 0x0
+int mipmap ic_launcher 0x0
+int mipmap ic_launcher_round 0x0
 int string abc_action_bar_home_description 0x0
 int string abc_action_bar_up_description 0x0
 int string abc_action_menu_overflow_description 0x0
@@ -1088,9 +919,6 @@ int string abc_shareactionprovider_share_with 0x0
 int string abc_shareactionprovider_share_with_application 0x0
 int string abc_toolbar_collapse_description 0x0
 int string app_name 0x0
-int string autoComplete_noResultsFoundText 0x0
-int string dropDown_pathData__down 0x0
-int string dropDown_pathData__up 0x0
 int string search_menu_title 0x0
 int string status_bar_notification_info_overflow 0x0
 int style AlertDialog_AppCompat 0x0
@@ -1489,6 +1317,12 @@ int styleable ActionMode_titleTextStyle 5
 int[] styleable ActivityChooserView { 0x0, 0x0 }
 int styleable ActivityChooserView_expandActivityOverflowButtonDrawable 0
 int styleable ActivityChooserView_initialActivityCount 1
+int[] styleable ActivityNavigator { 0x0, 0x1010003, 0x0, 0x0, 0x0 }
+int styleable ActivityNavigator_action 0
+int styleable ActivityNavigator_android_name 1
+int styleable ActivityNavigator_data 2
+int styleable ActivityNavigator_dataPattern 3
+int styleable ActivityNavigator_targetPackage 4
 int[] styleable AlertDialog { 0x10100f2, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable AlertDialog_android_layout 0
 int styleable AlertDialog_buttonIconDimen 1
@@ -1688,8 +1522,6 @@ int styleable ButtonBarLayout_allowStacking 0
 int[] styleable Capability { 0x0, 0x0 }
 int styleable Capability_queryPatterns 0
 int styleable Capability_shortcutMatchRequired 1
-int[] styleable CheckEditState { 0x0 }
-int styleable CheckEditState_state_indeterminate 0
 int[] styleable CheckedTextView { 0x1010108, 0x0, 0x0, 0x0 }
 int styleable CheckedTextView_android_checkMark 0
 int styleable CheckedTextView_checkMarkCompat 1
@@ -1706,6 +1538,8 @@ int styleable CompoundButton_android_button 0
 int styleable CompoundButton_buttonCompat 1
 int styleable CompoundButton_buttonTint 2
 int styleable CompoundButton_buttonTintMode 3
+int[] styleable DialogFragmentNavigator { 0x1010003 }
+int styleable DialogFragmentNavigator_android_name 0
 int[] styleable DrawerArrowToggle { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable DrawerArrowToggle_arrowHeadLength 0
 int styleable DrawerArrowToggle_arrowShaftLength 1
@@ -1715,10 +1549,6 @@ int styleable DrawerArrowToggle_drawableSize 4
 int styleable DrawerArrowToggle_gapBetweenBars 5
 int styleable DrawerArrowToggle_spinBars 6
 int styleable DrawerArrowToggle_thickness 7
-int[] styleable EditBase {  }
-int[] styleable EditState { 0x0, 0x0 }
-int styleable EditState_state_has_error 0
-int styleable EditState_state_label_moved 1
 int[] styleable FontFamily { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable FontFamily_fontProviderAuthority 0
 int styleable FontFamily_fontProviderCerts 1
@@ -1745,6 +1575,8 @@ int styleable Fragment_android_tag 2
 int[] styleable FragmentContainerView { 0x1010003, 0x10100d1 }
 int styleable FragmentContainerView_android_name 0
 int styleable FragmentContainerView_android_tag 1
+int[] styleable FragmentNavigator { 0x1010003 }
+int styleable FragmentNavigator_android_name 0
 int[] styleable GradientColor { 0x101020b, 0x10101a2, 0x10101a3, 0x101019e, 0x1010512, 0x1010513, 0x10101a4, 0x101019d, 0x1010510, 0x1010511, 0x1010201, 0x10101a1 }
 int styleable GradientColor_android_centerColor 0
 int styleable GradientColor_android_centerX 1
@@ -1820,6 +1652,37 @@ int styleable MenuView_android_verticalDivider 5
 int styleable MenuView_android_windowAnimationStyle 6
 int styleable MenuView_preserveIconSpacing 7
 int styleable MenuView_subMenuArrow 8
+int[] styleable NavAction { 0x10100d0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
+int styleable NavAction_android_id 0
+int styleable NavAction_destination 1
+int styleable NavAction_enterAnim 2
+int styleable NavAction_exitAnim 3
+int styleable NavAction_launchSingleTop 4
+int styleable NavAction_popEnterAnim 5
+int styleable NavAction_popExitAnim 6
+int styleable NavAction_popUpTo 7
+int styleable NavAction_popUpToInclusive 8
+int[] styleable NavArgument { 0x10101ed, 0x1010003, 0x0, 0x0 }
+int styleable NavArgument_android_defaultValue 0
+int styleable NavArgument_android_name 1
+int styleable NavArgument_argType 2
+int styleable NavArgument_nullable 3
+int[] styleable NavDeepLink { 0x0, 0x10104ee, 0x0, 0x0 }
+int styleable NavDeepLink_action 0
+int styleable NavDeepLink_android_autoVerify 1
+int styleable NavDeepLink_mimeType 2
+int styleable NavDeepLink_uri 3
+int[] styleable NavGraphNavigator { 0x0 }
+int styleable NavGraphNavigator_startDestination 0
+int[] styleable NavHost { 0x0 }
+int styleable NavHost_navGraph 0
+int[] styleable NavHostFragment { 0x0 }
+int styleable NavHostFragment_defaultNavHost 0
+int[] styleable NavInclude { 0x0 }
+int styleable NavInclude_graph 0
+int[] styleable Navigator { 0x10100d0, 0x1010001 }
+int styleable Navigator_android_id 0
+int styleable Navigator_android_label 1
 int[] styleable PopupWindow { 0x10102c9, 0x1010176, 0x0 }
 int styleable PopupWindow_android_popupAnimationStyle 0
 int styleable PopupWindow_android_popupBackground 1
@@ -1875,8 +1738,6 @@ int styleable StateListDrawable_android_variablePadding 4
 int styleable StateListDrawable_android_visible 5
 int[] styleable StateListDrawableItem { 0x1010199 }
 int styleable StateListDrawableItem_android_drawable 0
-int[] styleable SwipeRefreshLayout { 0x0 }
-int styleable SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor 0
 int[] styleable SwitchCompat { 0x1010125, 0x1010124, 0x1010142, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable SwitchCompat_android_textOff 0
 int styleable SwitchCompat_android_textOn 1

@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
 using CawoodClinic.Maui.ViewModels;
 using CawoodClinic.Maui.Views;
+using DevExpress.Maui;
+using CommunityToolkit.Maui;
 
 namespace CawoodClinic.Maui
 {
@@ -11,6 +13,8 @@ namespace CawoodClinic.Maui
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
+                .UseDevExpress()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -23,7 +27,7 @@ namespace CawoodClinic.Maui
             builder.Services.AddSingleton<WeightlossProgressionViewModel>();
             builder.Services.AddSingleton<WeightlossProgressionPage>();
 
-
+            DevExpress.Maui.Charts.Initializer.Init();
 
             return builder.Build();
         }

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AjnVU2dbnCBGffqz34fBYd0x1FHeKJEHL29UWaIxXkQIh/J7z/TFbj6KrqKM/3R9yKxZejk22CdOR2vA1cNslQ==",
+  "dgSpecHash": "9P40hK4BEovVVDRZVOOC7MEzxbgZy9I+FyMBR4Kn3xG/ati4SYWeXuuxrqKb4kFNZgSEbsbd4+KJYHtwvxT+1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DeanW\\.nuget\\packages\\communitytoolkit.maui\\7.0.0\\communitytoolkit.maui.7.0.0.nupkg.sha512",
+    "C:\\Users\\DeanW\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.0\\communitytoolkit.maui.core.7.0.0.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\devexpress.data\\23.1.6\\devexpress.data.23.1.6.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\devexpress.drawing\\23.1.6\\devexpress.drawing.23.1.6.nupkg.sha512",
@@ -123,6 +125,7 @@
     "C:\\Users\\DeanW\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\system.servicemodel.http\\4.10.2\\system.servicemodel.http.4.10.2.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\system.servicemodel.primitives\\4.10.2\\system.servicemodel.primitives.4.10.2.nupkg.sha512",
+    "C:\\Users\\DeanW\\.nuget\\packages\\system.speech\\8.0.0-rc.2.23479.6\\system.speech.8.0.0-rc.2.23479.6.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\DeanW\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
