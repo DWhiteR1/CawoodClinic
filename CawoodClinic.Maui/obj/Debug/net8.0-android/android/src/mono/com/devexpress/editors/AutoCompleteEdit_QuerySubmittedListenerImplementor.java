@@ -11,9 +11,9 @@ public class AutoCompleteEdit_QuerySubmittedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onQuerySubmitted:(Lcom/devexpress/editors/AutoCompleteEdit;Ljava/lang/CharSequence;)V:GetOnQuerySubmitted_Lcom_devexpress_editors_AutoCompleteEdit_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.AutoCompleteEdit/IQuerySubmittedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onQuerySubmitted:(Lcom/devexpress/editors/AutoCompleteEdit;Ljava/lang/CharSequence;)V:GetOnQuerySubmitted_Lcom_devexpress_editors_AutoCompleteEdit_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.AutoCompleteEdit/IQuerySubmittedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+IQuerySubmittedListenerImplementor, DevExpress.Android.Editors", AutoCompleteEdit_QuerySubmittedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+IQuerySubmittedListenerImplementor, DXEditors.a", AutoCompleteEdit_QuerySubmittedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class AutoCompleteEdit_QuerySubmittedListenerImplementor
 	{
 		super ();
 		if (getClass () == AutoCompleteEdit_QuerySubmittedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+IQuerySubmittedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+IQuerySubmittedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

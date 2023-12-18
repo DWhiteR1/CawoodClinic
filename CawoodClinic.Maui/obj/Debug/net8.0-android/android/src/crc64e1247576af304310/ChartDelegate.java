@@ -11,8 +11,8 @@ public class ChartDelegate
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onHide:()V:GetOnHideHandler:DevExpress.Android.Charts.IHintListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onShow:(Lcom/devexpress/dxcharts/HintInfo;)V:GetOnShow_Lcom_devexpress_dxcharts_HintInfo_Handler:DevExpress.Android.Charts.IHintListenerInvoker, DevExpress.Android.Charts\n" +
+			"n_onHide:()V:GetOnHideHandler:DevExpress.Android.Charts.IHintListenerInvoker, DXCharts.a\n" +
+			"n_onShow:(Lcom/devexpress/dxcharts/HintInfo;)V:GetOnShow_Lcom_devexpress_dxcharts_HintInfo_Handler:DevExpress.Android.Charts.IHintListenerInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.ChartDelegate, DevExpress.Maui.Charts", ChartDelegate.class, __md_methods);
 	}

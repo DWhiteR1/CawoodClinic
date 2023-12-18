@@ -11,9 +11,9 @@ public class ExpanderHeaderClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onHeaderClicked:()V:GetOnHeaderClickedHandler:DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onHeaderClicked:()V:GetOnHeaderClickedHandler:DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerImplementor, DevExpress.Android.Editors", ExpanderHeaderClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerImplementor, DXEditors.a", ExpanderHeaderClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class ExpanderHeaderClickListenerImplementor
 	{
 		super ();
 		if (getClass () == ExpanderHeaderClickListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DataForm.IExpanderHeaderClickListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

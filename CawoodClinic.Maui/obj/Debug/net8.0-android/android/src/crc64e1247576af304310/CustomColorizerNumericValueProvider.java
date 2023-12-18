@@ -11,7 +11,7 @@ public class CustomColorizerNumericValueProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getValueForColorizer:(I)D:GetGetValueForColorizer_IHandler:DevExpress.Android.Charts.ICustomColorizerNumericValueProviderInvoker, DevExpress.Android.Charts\n" +
+			"n_getValueForColorizer:(I)D:GetGetValueForColorizer_IHandler:DevExpress.Android.Charts.ICustomColorizerNumericValueProviderInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.CustomColorizerNumericValueProvider, DevExpress.Maui.Charts", CustomColorizerNumericValueProvider.class, __md_methods);
 	}

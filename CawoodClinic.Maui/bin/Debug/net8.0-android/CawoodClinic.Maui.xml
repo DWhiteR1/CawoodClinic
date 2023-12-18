@@ -4,6 +4,39 @@
         <name>CawoodClinic.Maui</name>
     </assembly>
     <members>
+        <member name="T:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.MinDate">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.minDate"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.MaxDate">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.maxDate"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.SelectedDate">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.selectedDate"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.Weight">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.weight"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.WeightMinValue">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.weightMinValue"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.WeightMaxValue">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.weightMaxValue"/>
+        </member>
+        <member name="P:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.WeightStepValue">
+            <inheritdoc cref="F:CawoodClinic.Maui.Popups.WeightPickerPopupViewModel.weightStepValue"/>
+        </member>
+        <member name="T:CawoodClinic.Maui.ViewModels.WeightlossProgressionViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:CawoodClinic.Maui.ViewModels.WeightlossProgressionViewModel.addWeightCommand">
+            <summary>The backing field for <see cref="P:CawoodClinic.Maui.ViewModels.WeightlossProgressionViewModel.AddWeightCommand"/>.</summary>
+        </member>
+        <member name="P:CawoodClinic.Maui.ViewModels.WeightlossProgressionViewModel.AddWeightCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:CawoodClinic.Maui.ViewModels.WeightlossProgressionViewModel.AddWeight"/>.</summary>
+        </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
             Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
@@ -123,6 +156,60 @@
             <param name = "easing">The easing function to be used in the animation</param>
             <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
             <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MinDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MinDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MaxDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MaxDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Weight">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Weight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WeightMinValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WeightMinValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WeightMaxValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WeightMaxValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.WeightStepValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "WeightStepValue" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MinDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MinDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MaxDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MaxDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Weight">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Weight" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WeightMinValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WeightMinValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WeightMaxValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WeightMaxValue" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.WeightStepValue">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "WeightStepValue" generated properties.</summary>
         </member>
     </members>
 </doc>

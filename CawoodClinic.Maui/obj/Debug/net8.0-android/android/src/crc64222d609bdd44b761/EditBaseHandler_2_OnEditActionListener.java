@@ -11,7 +11,7 @@ public class EditBaseHandler_2_OnEditActionListener
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onEditorAction:(I)Z:GetOnEditorAction_IHandler:DevExpress.Android.Editors.IOnEditActionListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onEditorAction:(I)Z:GetOnEditorAction_IHandler:DevExpress.Android.Editors.IOnEditActionListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.EditBaseHandler`2+OnEditActionListener, DevExpress.Maui.Editors", EditBaseHandler_2_OnEditActionListener.class, __md_methods);
 	}

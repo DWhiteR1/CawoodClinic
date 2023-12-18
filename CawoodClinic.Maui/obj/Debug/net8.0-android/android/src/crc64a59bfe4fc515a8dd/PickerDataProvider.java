@@ -11,10 +11,10 @@ public class PickerDataProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getItemCount:(I)I:GetGetItemCount_IHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getItemIndex:(I)I:GetGetItemIndex_IHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getText:(II)Ljava/lang/String;:GetGetText_IIHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_setItemIndex:(II)Ljava/lang/String;:GetSetItemIndex_IIHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getItemCount:(I)I:GetGetItemCount_IHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DXGrid.a\n" +
+			"n_getItemIndex:(I)I:GetGetItemIndex_IHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DXGrid.a\n" +
+			"n_getText:(II)Ljava/lang/String;:GetGetText_IIHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DXGrid.a\n" +
+			"n_setItemIndex:(II)Ljava/lang/String;:GetSetItemIndex_IIHandler:DevExpress.Android.Grid.Providers.IPickerDataProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.PickerDataProvider, DevExpress.Maui.DataGrid", PickerDataProvider.class, __md_methods);
 	}

@@ -11,13 +11,13 @@ public class DXDropdownContainer_DropdownListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_dropdownClosed:()V:GetDropdownClosedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_dropdownOpened:()V:GetDropdownOpenedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_dropdownResized:()V:GetDropdownResizedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_dropdownWillClose:()Z:GetDropdownWillCloseHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_dropdownWillOpen:()Z:GetDropdownWillOpenHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_dropdownClosed:()V:GetDropdownClosedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DXEditors.a\n" +
+			"n_dropdownOpened:()V:GetDropdownOpenedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DXEditors.a\n" +
+			"n_dropdownResized:()V:GetDropdownResizedHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DXEditors.a\n" +
+			"n_dropdownWillClose:()Z:GetDropdownWillCloseHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DXEditors.a\n" +
+			"n_dropdownWillOpen:()Z:GetDropdownWillOpenHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownListenerImplementor, DevExpress.Android.Editors", DXDropdownContainer_DropdownListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownListenerImplementor, DXEditors.a", DXDropdownContainer_DropdownListenerImplementor.class, __md_methods);
 	}
 
 
@@ -25,7 +25,7 @@ public class DXDropdownContainer_DropdownListenerImplementor
 	{
 		super ();
 		if (getClass () == DXDropdownContainer_DropdownListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

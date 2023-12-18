@@ -11,9 +11,9 @@ public class Padding_OnPaddingChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onPaddingChanged:()V:GetOnPaddingChangedHandler:DevExpress.Android.Navigation.Tabs.Models.Padding/IOnPaddingChangeListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onPaddingChanged:()V:GetOnPaddingChangedHandler:DevExpress.Android.Navigation.Tabs.Models.Padding/IOnPaddingChangeListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabs.Models.Padding+IOnPaddingChangeListenerImplementor, DevExpress.Android.Navigation", Padding_OnPaddingChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabs.Models.Padding+IOnPaddingChangeListenerImplementor, DXNavigation.a", Padding_OnPaddingChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class Padding_OnPaddingChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == Padding_OnPaddingChangeListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabs.Models.Padding+IOnPaddingChangeListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabs.Models.Padding+IOnPaddingChangeListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

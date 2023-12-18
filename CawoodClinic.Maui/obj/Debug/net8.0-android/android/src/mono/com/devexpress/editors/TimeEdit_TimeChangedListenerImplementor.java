@@ -11,9 +11,9 @@ public class TimeEdit_TimeChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTimeChanged:(Lcom/devexpress/editors/TimeEdit;II)V:GetOnTimeChanged_Lcom_devexpress_editors_TimeEdit_IIHandler:DevExpress.Android.Editors.TimeEdit/ITimeChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onTimeChanged:(Lcom/devexpress/editors/TimeEdit;II)V:GetOnTimeChanged_Lcom_devexpress_editors_TimeEdit_IIHandler:DevExpress.Android.Editors.TimeEdit/ITimeChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.TimeEdit+ITimeChangedListenerImplementor, DevExpress.Android.Editors", TimeEdit_TimeChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.TimeEdit+ITimeChangedListenerImplementor, DXEditors.a", TimeEdit_TimeChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TimeEdit_TimeChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == TimeEdit_TimeChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.TimeEdit+ITimeChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.TimeEdit+ITimeChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

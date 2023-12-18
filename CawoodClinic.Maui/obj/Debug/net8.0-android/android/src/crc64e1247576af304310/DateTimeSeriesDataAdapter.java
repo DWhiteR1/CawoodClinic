@@ -12,11 +12,11 @@ public class DateTimeSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_fillArguments:([DII)I:GetFillArguments_arrayDIIHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_fillValues:([DII)I:GetFillValues_arrayDIIHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getArgument:(I)D:GetGetArgument_IHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_fillArguments:([DII)I:GetFillArguments_arrayDIIHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_fillValues:([DII)I:GetFillValues_arrayDIIHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_getArgument:(I)D:GetGetArgument_IHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IBatchDateTimeAsNumericSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.DateTimeSeriesDataAdapter, DevExpress.Maui.Charts", DateTimeSeriesDataAdapter.class, __md_methods);
 	}

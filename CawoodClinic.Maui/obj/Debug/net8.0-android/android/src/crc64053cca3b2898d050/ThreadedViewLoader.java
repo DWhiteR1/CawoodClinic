@@ -11,9 +11,9 @@ public class ThreadedViewLoader
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_cancelRequestedViews:(Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;)V:GetCancelRequestedViews_Lcom_devexpress_scheduler_panels_ManagedLayoutViewGroup_Handler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DevExpress.Android.Scheduler\n" +
-			"n_recycle:()V:GetRecycleHandler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DevExpress.Android.Scheduler\n" +
-			"n_requestNewView:(Lcom/devexpress/scheduler/providers/ViewProviderContainer;I)V:GetRequestNewView_Lcom_devexpress_scheduler_providers_ViewProviderContainer_IHandler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DevExpress.Android.Scheduler\n" +
+			"n_cancelRequestedViews:(Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;)V:GetCancelRequestedViews_Lcom_devexpress_scheduler_panels_ManagedLayoutViewGroup_Handler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DXScheduler.a\n" +
+			"n_recycle:()V:GetRecycleHandler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DXScheduler.a\n" +
+			"n_requestNewView:(Lcom/devexpress/scheduler/providers/ViewProviderContainer;I)V:GetRequestNewView_Lcom_devexpress_scheduler_providers_ViewProviderContainer_IHandler:DevExpress.Android.Scheduler.Providers.IViewLoaderInvoker, DXScheduler.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Scheduler.Android.Internal.ThreadedViewLoader, DevExpress.Maui.Scheduler", ThreadedViewLoader.class, __md_methods);
 	}

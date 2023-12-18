@@ -11,10 +11,10 @@ public class ExpanderListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_contentSizeChanged:(Landroid/view/View;)V:GetContentSizeChanged_Landroid_view_View_Handler:DevExpress.Android.Editors.IExpanderListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_isExpanderCollapsed:(Lcom/devexpress/editors/dataForm/ExpanderView;Z)V:GetIsExpanderCollapsed_Lcom_devexpress_editors_dataForm_ExpanderView_ZHandler:DevExpress.Android.Editors.IExpanderListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_contentSizeChanged:(Landroid/view/View;)V:GetContentSizeChanged_Landroid_view_View_Handler:DevExpress.Android.Editors.IExpanderListenerInvoker, DXEditors.a\n" +
+			"n_isExpanderCollapsed:(Lcom/devexpress/editors/dataForm/ExpanderView;Z)V:GetIsExpanderCollapsed_Lcom_devexpress_editors_dataForm_ExpanderView_ZHandler:DevExpress.Android.Editors.IExpanderListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IExpanderListenerImplementor, DevExpress.Android.Editors", ExpanderListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IExpanderListenerImplementor, DXEditors.a", ExpanderListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class ExpanderListenerImplementor
 	{
 		super ();
 		if (getClass () == ExpanderListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IExpanderListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IExpanderListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

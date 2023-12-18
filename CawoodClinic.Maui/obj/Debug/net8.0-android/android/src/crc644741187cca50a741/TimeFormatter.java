@@ -11,7 +11,7 @@ public class TimeFormatter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_format:(IIZ)Ljava/lang/CharSequence;:GetFormat_IIZHandler:DevExpress.Android.Editors.ITimeFormatterInvoker, DevExpress.Android.Editors\n" +
+			"n_format:(IIZ)Ljava/lang/CharSequence;:GetFormat_IIZHandler:DevExpress.Android.Editors.ITimeFormatterInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Android.Internal.TimeFormatter, DevExpress.Maui.Editors", TimeFormatter.class, __md_methods);
 	}

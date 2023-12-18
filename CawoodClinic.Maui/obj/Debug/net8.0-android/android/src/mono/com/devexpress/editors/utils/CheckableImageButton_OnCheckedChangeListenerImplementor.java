@@ -11,9 +11,9 @@ public class CheckableImageButton_OnCheckedChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCheckedChanged:(Landroid/widget/Checkable;Z)V:GetOnCheckedChanged_Landroid_widget_Checkable_ZHandler:DevExpress.Android.Editors.Util.CheckableImageButton/IOnCheckedChangeListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onCheckedChanged:(Landroid/widget/Checkable;Z)V:GetOnCheckedChanged_Landroid_widget_Checkable_ZHandler:DevExpress.Android.Editors.Util.CheckableImageButton/IOnCheckedChangeListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.Util.CheckableImageButton+IOnCheckedChangeListenerImplementor, DevExpress.Android.Editors", CheckableImageButton_OnCheckedChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.Util.CheckableImageButton+IOnCheckedChangeListenerImplementor, DXEditors.a", CheckableImageButton_OnCheckedChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class CheckableImageButton_OnCheckedChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == CheckableImageButton_OnCheckedChangeListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Util.CheckableImageButton+IOnCheckedChangeListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Util.CheckableImageButton+IOnCheckedChangeListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

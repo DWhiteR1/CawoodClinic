@@ -11,9 +11,9 @@ public class ComboBoxEdit_OnFilterTextChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onFilterTextChanged:(Lcom/devexpress/editors/ComboBoxEdit;Ljava/lang/CharSequence;)V:GetOnFilterTextChanged_Lcom_devexpress_editors_ComboBoxEdit_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.ComboBoxEdit/IOnFilterTextChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onFilterTextChanged:(Lcom/devexpress/editors/ComboBoxEdit;Ljava/lang/CharSequence;)V:GetOnFilterTextChanged_Lcom_devexpress_editors_ComboBoxEdit_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.ComboBoxEdit/IOnFilterTextChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.ComboBoxEdit+IOnFilterTextChangedListenerImplementor, DevExpress.Android.Editors", ComboBoxEdit_OnFilterTextChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.ComboBoxEdit+IOnFilterTextChangedListenerImplementor, DXEditors.a", ComboBoxEdit_OnFilterTextChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class ComboBoxEdit_OnFilterTextChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == ComboBoxEdit_OnFilterTextChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.ComboBoxEdit+IOnFilterTextChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.ComboBoxEdit+IOnFilterTextChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

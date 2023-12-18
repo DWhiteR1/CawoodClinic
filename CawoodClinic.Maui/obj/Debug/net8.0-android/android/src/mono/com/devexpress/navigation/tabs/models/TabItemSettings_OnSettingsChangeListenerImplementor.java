@@ -11,12 +11,12 @@ public class TabItemSettings_OnSettingsChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onHeaderHeightOnVerticalPanelChanged:(Ljava/lang/Object;Lcom/devexpress/navigation/tabs/models/TabSize;Lcom/devexpress/navigation/tabs/models/TabSize;)V:GetOnHeaderHeightOnVerticalPanelChanged_Ljava_lang_Object_Lcom_devexpress_navigation_tabs_models_TabSize_Lcom_devexpress_navigation_tabs_models_TabSize_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onHeaderIconPositionChanged:(Lcom/devexpress/navigation/common/Position;Lcom/devexpress/navigation/common/Position;)V:GetOnHeaderIconPositionChanged_Lcom_devexpress_navigation_common_Position_Lcom_devexpress_navigation_common_Position_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onHeaderVisibleElementsChanged:(Lcom/devexpress/navigation/common/HeaderElements;Lcom/devexpress/navigation/common/HeaderElements;)V:GetOnHeaderVisibleElementsChanged_Lcom_devexpress_navigation_common_HeaderElements_Lcom_devexpress_navigation_common_HeaderElements_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onHeaderWidthOnHorizontalPanelChanged:(Ljava/lang/Object;Lcom/devexpress/navigation/tabs/models/TabSize;Lcom/devexpress/navigation/tabs/models/TabSize;)V:GetOnHeaderWidthOnHorizontalPanelChanged_Ljava_lang_Object_Lcom_devexpress_navigation_tabs_models_TabSize_Lcom_devexpress_navigation_tabs_models_TabSize_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onHeaderHeightOnVerticalPanelChanged:(Ljava/lang/Object;Lcom/devexpress/navigation/tabs/models/TabSize;Lcom/devexpress/navigation/tabs/models/TabSize;)V:GetOnHeaderHeightOnVerticalPanelChanged_Ljava_lang_Object_Lcom_devexpress_navigation_tabs_models_TabSize_Lcom_devexpress_navigation_tabs_models_TabSize_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onHeaderIconPositionChanged:(Lcom/devexpress/navigation/common/Position;Lcom/devexpress/navigation/common/Position;)V:GetOnHeaderIconPositionChanged_Lcom_devexpress_navigation_common_Position_Lcom_devexpress_navigation_common_Position_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onHeaderVisibleElementsChanged:(Lcom/devexpress/navigation/common/HeaderElements;Lcom/devexpress/navigation/common/HeaderElements;)V:GetOnHeaderVisibleElementsChanged_Lcom_devexpress_navigation_common_HeaderElements_Lcom_devexpress_navigation_common_HeaderElements_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onHeaderWidthOnHorizontalPanelChanged:(Ljava/lang/Object;Lcom/devexpress/navigation/tabs/models/TabSize;Lcom/devexpress/navigation/tabs/models/TabSize;)V:GetOnHeaderWidthOnHorizontalPanelChanged_Ljava_lang_Object_Lcom_devexpress_navigation_tabs_models_TabSize_Lcom_devexpress_navigation_tabs_models_TabSize_Handler:DevExpress.Android.Navigation.Tabs.Models.TabItemSettings/IOnSettingsChangeListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabs.Models.TabItemSettings+IOnSettingsChangeListenerImplementor, DevExpress.Android.Navigation", TabItemSettings_OnSettingsChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabs.Models.TabItemSettings+IOnSettingsChangeListenerImplementor, DXNavigation.a", TabItemSettings_OnSettingsChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -24,7 +24,7 @@ public class TabItemSettings_OnSettingsChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == TabItemSettings_OnSettingsChangeListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabs.Models.TabItemSettings+IOnSettingsChangeListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabs.Models.TabItemSettings+IOnSettingsChangeListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

@@ -11,7 +11,7 @@ public class CheckEditListenerImplementation
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onValueChanged:(Lcom/devexpress/editors/DXCheckEditValue;)V:GetOnValueChanged_Lcom_devexpress_editors_DXCheckEditValue_Handler:DevExpress.Android.Editors.CheckEdit/IListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onValueChanged:(Lcom/devexpress/editors/DXCheckEditValue;)V:GetOnValueChanged_Lcom_devexpress_editors_DXCheckEditValue_Handler:DevExpress.Android.Editors.CheckEdit/IListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.CheckEditListenerImplementation, DevExpress.Maui.Editors", CheckEditListenerImplementation.class, __md_methods);
 	}

@@ -11,9 +11,9 @@ public class AutoCompleteEdit_TextChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTextChanged:(Lcom/devexpress/editors/AutoCompleteEdit;Lcom/devexpress/editors/DXAutoCompleteTextChangeReason;)V:GetOnTextChanged_Lcom_devexpress_editors_AutoCompleteEdit_Lcom_devexpress_editors_DXAutoCompleteTextChangeReason_Handler:DevExpress.Android.Editors.AutoCompleteEdit/ITextChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onTextChanged:(Lcom/devexpress/editors/AutoCompleteEdit;Lcom/devexpress/editors/DXAutoCompleteTextChangeReason;)V:GetOnTextChanged_Lcom_devexpress_editors_AutoCompleteEdit_Lcom_devexpress_editors_DXAutoCompleteTextChangeReason_Handler:DevExpress.Android.Editors.AutoCompleteEdit/ITextChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+ITextChangedListenerImplementor, DevExpress.Android.Editors", AutoCompleteEdit_TextChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+ITextChangedListenerImplementor, DXEditors.a", AutoCompleteEdit_TextChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class AutoCompleteEdit_TextChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == AutoCompleteEdit_TextChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+ITextChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+ITextChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

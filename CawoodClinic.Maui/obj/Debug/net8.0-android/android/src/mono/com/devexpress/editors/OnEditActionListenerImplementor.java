@@ -11,9 +11,9 @@ public class OnEditActionListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onEditorAction:(I)Z:GetOnEditorAction_IHandler:DevExpress.Android.Editors.IOnEditActionListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onEditorAction:(I)Z:GetOnEditorAction_IHandler:DevExpress.Android.Editors.IOnEditActionListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IOnEditActionListenerImplementor, DevExpress.Android.Editors", OnEditActionListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IOnEditActionListenerImplementor, DXEditors.a", OnEditActionListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class OnEditActionListenerImplementor
 	{
 		super ();
 		if (getClass () == OnEditActionListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IOnEditActionListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IOnEditActionListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

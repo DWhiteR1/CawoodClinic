@@ -11,7 +11,7 @@ public class DataFormComboBoxEditor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_setPickerDataProvider:(Lcom/devexpress/editors/dataForm/protocols/DataFormPickerItemDataProvider;)V:GetSetPickerDataProvider_Lcom_devexpress_editors_dataForm_protocols_DataFormPickerItemDataProvider_Handler:DevExpress.Android.Editors.DataForm.Protocols.IDataFormPickerItemInvoker, DevExpress.Android.Editors\n" +
+			"n_setPickerDataProvider:(Lcom/devexpress/editors/dataForm/protocols/DataFormPickerItemDataProvider;)V:GetSetPickerDataProvider_Lcom_devexpress_editors_dataForm_protocols_DataFormPickerItemDataProvider_Handler:DevExpress.Android.Editors.DataForm.Protocols.IDataFormPickerItemInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataForm.Internal.DataFormComboBoxEditor, DevExpress.Maui.Editors", DataFormComboBoxEditor.class, __md_methods);
 	}
@@ -30,7 +30,7 @@ public class DataFormComboBoxEditor
 	{
 		super (p0, p1);
 		if (getClass () == DataFormComboBoxEditor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormComboBoxEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DevExpress.Android.Editors", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormComboBoxEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DXEditors.a", this, new java.lang.Object[] { p0, p1 });
 		}
 	}
 

@@ -13,10 +13,10 @@ public class WeightedNumericSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getWeight:(I)D:GetGetWeight_IHandler:DevExpress.Android.Charts.IWeightedNumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getArgument:(I)D:GetGetArgument_IHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getWeight:(I)D:GetGetWeight_IHandler:DevExpress.Android.Charts.IWeightedNumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_getArgument:(I)D:GetGetArgument_IHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.INumericSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.WeightedNumericSeriesDataAdapter, DevExpress.Maui.Charts", WeightedNumericSeriesDataAdapter.class, __md_methods);
 	}

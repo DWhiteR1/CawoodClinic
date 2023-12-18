@@ -11,11 +11,11 @@ public class NumericEdit_UpDownClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_clearClicked:()V:GetClearClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_downClicked:()V:GetDownClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_upClicked:()V:GetUpClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_clearClicked:()V:GetClearClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DXEditors.a\n" +
+			"n_downClicked:()V:GetDownClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DXEditors.a\n" +
+			"n_upClicked:()V:GetUpClickedHandler:DevExpress.Android.Editors.NumericEdit/IUpDownClickListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.NumericEdit+IUpDownClickListenerImplementor, DevExpress.Android.Editors", NumericEdit_UpDownClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.NumericEdit+IUpDownClickListenerImplementor, DXEditors.a", NumericEdit_UpDownClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class NumericEdit_UpDownClickListenerImplementor
 	{
 		super ();
 		if (getClass () == NumericEdit_UpDownClickListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.NumericEdit+IUpDownClickListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.NumericEdit+IUpDownClickListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

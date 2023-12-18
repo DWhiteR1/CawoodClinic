@@ -11,16 +11,16 @@ public class TemplatedViewProviderContainer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getOwnerPanel:()Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;:GetGetOwnerPanelHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_setOwnerPanel:(Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;)V:GetSetOwnerPanel_Lcom_devexpress_scheduler_panels_ManagedLayoutViewGroup_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_getViewInfos:()Ljava/util/List;:GetGetViewInfosHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_getViewLoader:()Lcom/devexpress/scheduler/providers/ViewLoader;:GetGetViewLoaderHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_bindView:(Landroid/view/View;)V:GetBindView_Landroid_view_View_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_createNewView:(ILandroid/content/Context;)Landroid/view/View;:GetCreateNewView_ILandroid_content_Context_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_getStubColor:(I)I:GetGetStubColor_IHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_recycle:()V:GetRecycleHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_recycleView:(Landroid/view/View;)V:GetRecycleView_Landroid_view_View_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_requestView:(I)Landroid/view/View;:GetRequestView_IHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DevExpress.Android.Scheduler\n" +
+			"n_getOwnerPanel:()Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;:GetGetOwnerPanelHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_setOwnerPanel:(Lcom/devexpress/scheduler/panels/ManagedLayoutViewGroup;)V:GetSetOwnerPanel_Lcom_devexpress_scheduler_panels_ManagedLayoutViewGroup_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_getViewInfos:()Ljava/util/List;:GetGetViewInfosHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_getViewLoader:()Lcom/devexpress/scheduler/providers/ViewLoader;:GetGetViewLoaderHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_bindView:(Landroid/view/View;)V:GetBindView_Landroid_view_View_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_createNewView:(ILandroid/content/Context;)Landroid/view/View;:GetCreateNewView_ILandroid_content_Context_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_getStubColor:(I)I:GetGetStubColor_IHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_recycle:()V:GetRecycleHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_recycleView:(Landroid/view/View;)V:GetRecycleView_Landroid_view_View_Handler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
+			"n_requestView:(I)Landroid/view/View;:GetRequestView_IHandler:DevExpress.Android.Scheduler.Providers.IViewProviderContainerInvoker, DXScheduler.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Scheduler.Android.Internal.TemplatedViewProviderContainer, DevExpress.Maui.Scheduler", TemplatedViewProviderContainer.class, __md_methods);
 	}

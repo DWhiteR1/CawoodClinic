@@ -11,18 +11,18 @@ public class ListViewDelegate
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_canDrop:(II)Z:GetCanDrop_IIHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_canLoadMore:()Z:GetCanLoadMoreHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_canPullToRefresh:()Z:GetCanPullToRefreshHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_canStartDrag:(I)Z:GetCanStartDrag_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_drop:(II)V:GetDrop_IIHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_itemDoubleTap:(I)V:GetItemDoubleTap_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_itemLongPress:(I)V:GetItemLongPress_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_itemTap:(I)V:GetItemTap_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_itemTapConfirmed:(I)V:GetItemTapConfirmed_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_loadMore:()V:GetLoadMoreHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_pullToRefresh:()V:GetPullToRefreshHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_scrolled:(Lcom/devexpress/dxlistview/ListViewScrolledEventArgs;)V:GetScrolled_Lcom_devexpress_dxlistview_ListViewScrolledEventArgs_Handler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DevExpress.Android.CollectionView\n" +
+			"n_canDrop:(II)Z:GetCanDrop_IIHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_canLoadMore:()Z:GetCanLoadMoreHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_canPullToRefresh:()Z:GetCanPullToRefreshHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_canStartDrag:(I)Z:GetCanStartDrag_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_drop:(II)V:GetDrop_IIHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_itemDoubleTap:(I)V:GetItemDoubleTap_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_itemLongPress:(I)V:GetItemLongPress_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_itemTap:(I)V:GetItemTap_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_itemTapConfirmed:(I)V:GetItemTapConfirmed_IHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_loadMore:()V:GetLoadMoreHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_pullToRefresh:()V:GetPullToRefreshHandler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
+			"n_scrolled:(Lcom/devexpress/dxlistview/ListViewScrolledEventArgs;)V:GetScrolled_Lcom_devexpress_dxlistview_ListViewScrolledEventArgs_Handler:DevExpress.Android.CollectionView.IListViewListenerInvoker, DXCollectionView.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.CollectionView.Android.Internal.ListViewDelegate, DevExpress.Maui.CollectionView", ListViewDelegate.class, __md_methods);
 	}

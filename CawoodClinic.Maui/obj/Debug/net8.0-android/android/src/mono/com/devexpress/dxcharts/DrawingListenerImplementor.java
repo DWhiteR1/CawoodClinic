@@ -11,10 +11,10 @@ public class DrawingListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onDrawingFinished:()V:GetOnDrawingFinishedHandler:DevExpress.Android.Charts.IDrawingListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onDrawingStarted:()V:GetOnDrawingStartedHandler:DevExpress.Android.Charts.IDrawingListenerInvoker, DevExpress.Android.Charts\n" +
+			"n_onDrawingFinished:()V:GetOnDrawingFinishedHandler:DevExpress.Android.Charts.IDrawingListenerInvoker, DXCharts.a\n" +
+			"n_onDrawingStarted:()V:GetOnDrawingStartedHandler:DevExpress.Android.Charts.IDrawingListenerInvoker, DXCharts.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Charts.IDrawingListenerImplementor, DevExpress.Android.Charts", DrawingListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Charts.IDrawingListenerImplementor, DXCharts.a", DrawingListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class DrawingListenerImplementor
 	{
 		super ();
 		if (getClass () == DrawingListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.IDrawingListenerImplementor, DevExpress.Android.Charts", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.IDrawingListenerImplementor, DXCharts.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

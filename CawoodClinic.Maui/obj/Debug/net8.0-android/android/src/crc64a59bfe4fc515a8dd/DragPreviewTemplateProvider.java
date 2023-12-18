@@ -11,7 +11,7 @@ public class DragPreviewTemplateProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDragPreview:(Landroid/content/Context;I)Landroid/view/View;:GetGetDragPreview_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IDragPreviewTemplateProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getDragPreview:(Landroid/content/Context;I)Landroid/view/View;:GetGetDragPreview_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IDragPreviewTemplateProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.DragPreviewTemplateProvider, DevExpress.Maui.DataGrid", DragPreviewTemplateProvider.class, __md_methods);
 	}

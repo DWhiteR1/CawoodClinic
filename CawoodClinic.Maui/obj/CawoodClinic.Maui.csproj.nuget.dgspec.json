@@ -17,12 +17,14 @@
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\DeanW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -36,6 +38,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/rhBSX4cNRVwE3QMLdzBiCnMtgHrYhtyTpLlUMhUAhZDJU9Xp8f/api": {}
@@ -86,7 +89,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "CommunityToolkit.Maui.Core": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -94,31 +101,31 @@
             },
             "DevExpress.Maui.Charts": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.CollectionView": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.Controls": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.DataGrid": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.DataGrid.Export": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.Editors": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "DevExpress.Maui.Scheduler": {
               "target": "Package",
-              "version": "[23.1.6, )"
+              "version": "[23.2.3, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -183,7 +190,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "CommunityToolkit.Maui.Core": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -280,7 +291,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "CommunityToolkit.Maui.Core": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -350,7 +365,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "CommunityToolkit.Maui.Core": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
@@ -451,12 +470,14 @@
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\DeanW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -467,6 +488,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.devexpress.com/rhBSX4cNRVwE3QMLdzBiCnMtgHrYhtyTpLlUMhUAhZDJU9Xp8f/api": {}

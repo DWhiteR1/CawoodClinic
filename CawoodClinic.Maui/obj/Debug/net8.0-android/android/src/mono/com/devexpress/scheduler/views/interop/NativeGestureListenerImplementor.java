@@ -11,11 +11,11 @@ public class NativeGestureListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_doubleTap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetDoubleTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_longPress:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetLongPress_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_tap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
+			"n_doubleTap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetDoubleTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
+			"n_longPress:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetLongPress_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
+			"n_tap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerImplementor, DevExpress.Android.Scheduler", NativeGestureListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerImplementor, DXScheduler.a", NativeGestureListenerImplementor.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class NativeGestureListenerImplementor
 	{
 		super ();
 		if (getClass () == NativeGestureListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerImplementor, DevExpress.Android.Scheduler", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerImplementor, DXScheduler.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

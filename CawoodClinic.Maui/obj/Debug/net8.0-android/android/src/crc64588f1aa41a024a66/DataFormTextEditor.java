@@ -28,7 +28,7 @@ public class DataFormTextEditor
 	{
 		super (p0, p1);
 		if (getClass () == DataFormTextEditor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormTextEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DevExpress.Android.Editors", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormTextEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DXEditors.a", this, new java.lang.Object[] { p0, p1 });
 		}
 	}
 

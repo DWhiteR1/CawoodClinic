@@ -12,8 +12,8 @@ public class PointCustomColorizer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.ICustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
-			"n_getColor:(Lcom/devexpress/dxcharts/ColoredPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredPointInfo_Handler:DevExpress.Android.Charts.ICustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
+			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.ICustomPointColorizerInvoker, DXCharts.a\n" +
+			"n_getColor:(Lcom/devexpress/dxcharts/ColoredPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredPointInfo_Handler:DevExpress.Android.Charts.ICustomPointColorizerInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.PointCustomColorizer, DevExpress.Maui.Charts", PointCustomColorizer.class, __md_methods);
 	}

@@ -11,15 +11,15 @@ public class DataProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getRowCount:()I:GetGetRowCountHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getCellErrorText:(Ljava/lang/String;I)Ljava/lang/String;:GetGetCellErrorText_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getDisplayText:(Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;:GetGetDisplayText_Ljava_lang_Object_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getDisplayText:(Ljava/lang/String;I)Ljava/lang/String;:GetGetDisplayText_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getGroupInfo:(I)Lcom/devexpress/dxgrid/models/GroupInfo;:GetGetGroupInfo_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getTotalSummary:(I)Ljava/lang/String;:GetGetTotalSummary_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getValue:(Ljava/lang/String;I)Ljava/lang/Object;:GetGetValue_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_isGroupRow:(I)Z:GetIsGroupRow_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_setCellValue:(Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;:GetSetCellValue_Ljava_lang_String_ILjava_lang_Object_Handler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getRowCount:()I:GetGetRowCountHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getCellErrorText:(Ljava/lang/String;I)Ljava/lang/String;:GetGetCellErrorText_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getDisplayText:(Ljava/lang/Object;Ljava/lang/String;I)Ljava/lang/String;:GetGetDisplayText_Ljava_lang_Object_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getDisplayText:(Ljava/lang/String;I)Ljava/lang/String;:GetGetDisplayText_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getGroupInfo:(I)Lcom/devexpress/dxgrid/models/GroupInfo;:GetGetGroupInfo_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getTotalSummary:(I)Ljava/lang/String;:GetGetTotalSummary_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_getValue:(Ljava/lang/String;I)Ljava/lang/Object;:GetGetValue_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_isGroupRow:(I)Z:GetIsGroupRow_IHandler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
+			"n_setCellValue:(Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;:GetSetCellValue_Ljava_lang_String_ILjava_lang_Object_Handler:DevExpress.Android.Grid.Providers.IDataProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.DataProvider, DevExpress.Maui.DataGrid", DataProvider.class, __md_methods);
 	}

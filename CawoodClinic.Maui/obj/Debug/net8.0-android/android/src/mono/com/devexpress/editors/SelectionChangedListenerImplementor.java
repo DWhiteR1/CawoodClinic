@@ -11,9 +11,9 @@ public class SelectionChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onSelectionChanged:(II)V:GetOnSelectionChanged_IIHandler:DevExpress.Android.Editors.ISelectionChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onSelectionChanged:(II)V:GetOnSelectionChanged_IIHandler:DevExpress.Android.Editors.ISelectionChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.ISelectionChangedListenerImplementor, DevExpress.Android.Editors", SelectionChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.ISelectionChangedListenerImplementor, DXEditors.a", SelectionChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class SelectionChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == SelectionChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.ISelectionChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.ISelectionChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

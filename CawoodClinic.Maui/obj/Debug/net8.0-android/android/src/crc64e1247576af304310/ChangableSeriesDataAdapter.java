@@ -11,8 +11,8 @@ public abstract class ChangableSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_addChangedListener:(Lcom/devexpress/dxcharts/SeriesDataChangedListener;)V:GetAddChangedListener_Lcom_devexpress_dxcharts_SeriesDataChangedListener_Handler:DevExpress.Android.Charts.IChangeableSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_removeChangedListener:(Lcom/devexpress/dxcharts/SeriesDataChangedListener;)V:GetRemoveChangedListener_Lcom_devexpress_dxcharts_SeriesDataChangedListener_Handler:DevExpress.Android.Charts.IChangeableSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_addChangedListener:(Lcom/devexpress/dxcharts/SeriesDataChangedListener;)V:GetAddChangedListener_Lcom_devexpress_dxcharts_SeriesDataChangedListener_Handler:DevExpress.Android.Charts.IChangeableSeriesDataInvoker, DXCharts.a\n" +
+			"n_removeChangedListener:(Lcom/devexpress/dxcharts/SeriesDataChangedListener;)V:GetRemoveChangedListener_Lcom_devexpress_dxcharts_SeriesDataChangedListener_Handler:DevExpress.Android.Charts.IChangeableSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.ChangableSeriesDataAdapter, DevExpress.Maui.Charts", ChangableSeriesDataAdapter.class, __md_methods);
 	}

@@ -12,8 +12,8 @@ public class RangePointCustomColorizer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IRangeCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
-			"n_getColor:(Lcom/devexpress/dxcharts/ColoredRangePointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredRangePointInfo_Handler:DevExpress.Android.Charts.IRangeCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
+			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IRangeCustomPointColorizerInvoker, DXCharts.a\n" +
+			"n_getColor:(Lcom/devexpress/dxcharts/ColoredRangePointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredRangePointInfo_Handler:DevExpress.Android.Charts.IRangeCustomPointColorizerInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.RangePointCustomColorizer, DevExpress.Maui.Charts", RangePointCustomColorizer.class, __md_methods);
 	}

@@ -11,16 +11,16 @@ public class ITabControlAdapter_ItemsChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onAddItem:(I)V:GetOnAddItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onClearItems:()V:GetOnClearItemsHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onContentChanged:(I)V:GetOnContentChanged_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onContentTemplateChanged:()V:GetOnContentTemplateChangedHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onHeaderContentChanged:(I)V:GetOnHeaderContentChanged_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onHeaderTemplateChanged:()V:GetOnHeaderTemplateChangedHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onRemoveItem:(I)V:GetOnRemoveItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onSetItem:(I)V:GetOnSetItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onAddItem:(I)V:GetOnAddItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onClearItems:()V:GetOnClearItemsHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onContentChanged:(I)V:GetOnContentChanged_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onContentTemplateChanged:()V:GetOnContentTemplateChangedHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onHeaderContentChanged:(I)V:GetOnHeaderContentChanged_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onHeaderTemplateChanged:()V:GetOnHeaderTemplateChangedHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onRemoveItem:(I)V:GetOnRemoveItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
+			"n_onSetItem:(I)V:GetOnSetItem_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter/IItemsChangedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter+IItemsChangedListenerImplementor, DevExpress.Android.Navigation", ITabControlAdapter_ItemsChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter+IItemsChangedListenerImplementor, DXNavigation.a", ITabControlAdapter_ItemsChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -28,7 +28,7 @@ public class ITabControlAdapter_ItemsChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == ITabControlAdapter_ItemsChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter+IItemsChangedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapter+IItemsChangedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

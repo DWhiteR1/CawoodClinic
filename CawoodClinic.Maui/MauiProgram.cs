@@ -3,6 +3,8 @@ using CawoodClinic.Maui.ViewModels;
 using CawoodClinic.Maui.Views;
 using DevExpress.Maui;
 using CommunityToolkit.Maui;
+using CawoodClinic.Maui.Popups;
+using CommunityToolkit.Maui.Core;
 
 namespace CawoodClinic.Maui
 {
@@ -14,6 +16,7 @@ namespace CawoodClinic.Maui
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .UseMauiCommunityToolkitCore()
                 .UseDevExpress()
                 .ConfigureFonts(fonts =>
                 {
@@ -24,8 +27,11 @@ namespace CawoodClinic.Maui
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddTransientPopup<WeightPickerPopupView, WeightPickerPopupViewModel>();
+
             builder.Services.AddSingleton<WeightlossProgressionViewModel>();
             builder.Services.AddSingleton<WeightlossProgressionPage>();
+
 
             DevExpress.Maui.Charts.Initializer.Init();
 

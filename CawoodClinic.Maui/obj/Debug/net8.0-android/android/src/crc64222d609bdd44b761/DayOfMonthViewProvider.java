@@ -11,10 +11,10 @@ public class DayOfMonthViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_check:(Landroid/view/View;III)Z:GetCheck_Landroid_view_View_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_request:(III)Landroid/view/View;:GetRequest_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_update:(Landroid/view/View;III)V:GetUpdate_Landroid_view_View_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DevExpress.Android.Editors\n" +
+			"n_check:(Landroid/view/View;III)Z:GetCheck_Landroid_view_View_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DXEditors.a\n" +
+			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DXEditors.a\n" +
+			"n_request:(III)Landroid/view/View;:GetRequest_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DXEditors.a\n" +
+			"n_update:(Landroid/view/View;III)V:GetUpdate_Landroid_view_View_IIIHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfMonthViewProviderInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.DayOfMonthViewProvider, DevExpress.Maui.Editors", DayOfMonthViewProvider.class, __md_methods);
 	}

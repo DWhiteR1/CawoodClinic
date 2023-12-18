@@ -11,7 +11,7 @@ public class SwipeItemViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getView:(Landroid/content/Context;I)Landroid/view/View;:GetGetView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.ISwipeButtonViewProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getView:(Landroid/content/Context;I)Landroid/view/View;:GetGetView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.ISwipeButtonViewProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.SwipeItemViewProvider, DevExpress.Maui.DataGrid", SwipeItemViewProvider.class, __md_methods);
 	}

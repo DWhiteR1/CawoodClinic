@@ -1,10 +1,11 @@
-using CawoodClinic.Blazor.Components;
-using CawoodClinic.Blazor.Components.Account;
 using CawoodClinic.Blazor.Data;
-using CawoodClinic.Blazor.Services;
+using CawoodClinic.Blazor.Components;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
+using CawoodClinic.Blazor.Components.Account;
 using Microsoft.EntityFrameworkCore;
+using CawoodClinic.Blazor.Services;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,13 +17,15 @@ builder.Services.AddCascadingAuthenticationState();
 builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["BaseAddress"]) });
 
 builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultScheme = IdentityConstants.ApplicationScheme;
-        options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
-    })
+{
+    options.DefaultScheme = IdentityConstants.ApplicationScheme;
+    options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+})
     .AddIdentityCookies();
+
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContextFactory<ApplicationDbContext>(opt =>
@@ -47,7 +50,7 @@ builder.Services.AddIdentityCore<ApplicationUser>(options =>
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("CanMaintainUsers", policy => policy.RequireClaim("Permission", "CanMaintainUsers"));
-    options.AddPolicy("CanMaintainAccountDetails", policy => policy.RequireClaim("Permission", "CanMaintainAccountDetails"));
+    options.AddPolicy("CanMaintainAreas", policy => policy.RequireClaim("Permission", "CanMaintainAreas"));
     options.AddPolicy("CanSendAccountDetails", policy => policy.RequireClaim("Permission", "CanSendAccountDetails"));
     options.AddPolicy("CanMaintainCompanies", policy => policy.RequireClaim("Permission", "CanMaintainCompanies"));
     options.AddPolicy("CanViewAccountDetails", policy => policy.RequireClaim("Permission", "CanViewAccountDetails"));
@@ -59,20 +62,19 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddSingleton<FullScreenService>();
 builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
+builder.Services.AddDevExpressBlazor(options => {
+    options.BootstrapVersion = DevExpress.Blazor.BootstrapVersion.v5;
+    options.SizeMode = DevExpress.Blazor.SizeMode.Medium;
+});
+builder.Services.AddSingleton<WeatherForecastService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseMigrationsEndPoint();
-}
-else
-{
+if(!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();

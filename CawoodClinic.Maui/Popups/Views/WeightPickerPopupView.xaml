@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CawoodClinic.Maui.Popups.WeightPickerPopupView"
+             xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:dxe="clr-namespace:DevExpress.Maui.Editors;assembly=DevExpress.Maui.Editors"
+           >
+    <VerticalStackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="Center">
+        <Label 
+            Text="Weight Entry!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <dxe:DateEdit DisplayFormat="ddd d MMM"
+                      LabelText="Date"
+                      Date="{Binding SelectedDate}"
+                      MaxDate="{Binding MaxDate}"
+                      MinDate="{Binding MinDate}"
+                      Margin="14,30,14,15"/>
+        <dxe:NumericEdit
+                Value="{Binding Weight}"
+                MinValue="{Binding WeightMinValue}"
+                MaxValue="{Binding WeightMaxValue}"
+                StepValue="{Binding WeightStepValue}"
+                LabelText="Weight"
+                AllowLooping="true"
+                SelectValueOnFocus="true"
+                IsUpDownIconVisible="true"
+                DisplayFormat="##0.0Kg"
+                UpDownIconAlignment="End"
+                VerticalOptions="Center"
+                HasError="false"
+                ErrorText=""
+                HelpText="Weight to be recorded."
+                TextHorizontalAlignment="End"
+                Margin="16,32,16,32"/>
+        <Button Text="OK" 
+                WidthRequest="75"
+                Clicked="OnOKButtonClicked" 
+                Margin="0,0,0,10"/>
+    </VerticalStackLayout>
+</mct:Popup>

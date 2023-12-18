@@ -11,18 +11,18 @@ public class TabControlAppearance_OnAppearancePropertyChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onIndicatorPropertyChanged:()V:GetOnIndicatorPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onItemCornerRadiusPropertyChanged:()V:GetOnItemCornerRadiusPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onItemPaddingPropertyChanged:()V:GetOnItemPaddingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onItemSelectedPropertyChanged:(Lcom/devexpress/navigation/tabs/models/SelectedStyleProperty;)V:GetOnItemSelectedPropertyChanged_Lcom_devexpress_navigation_tabs_models_SelectedStyleProperty_Handler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onItemSpacingPropertyChanged:()V:GetOnItemSpacingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onItemStylePropertyChanged:(Lcom/devexpress/navigation/tabs/models/StyleProperty;)V:GetOnItemStylePropertyChanged_Lcom_devexpress_navigation_tabs_models_StyleProperty_Handler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onPanelBackgroundPropertyChanged:()V:GetOnPanelBackgroundPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onPanelIndentPropertyChanged:()V:GetOnPanelIndentPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onPanelPaddingPropertyChanged:()V:GetOnPanelPaddingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
-			"n_onPanelSpacingPropertyChanged:()V:GetOnPanelSpacingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onIndicatorPropertyChanged:()V:GetOnIndicatorPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onItemCornerRadiusPropertyChanged:()V:GetOnItemCornerRadiusPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onItemPaddingPropertyChanged:()V:GetOnItemPaddingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onItemSelectedPropertyChanged:(Lcom/devexpress/navigation/tabs/models/SelectedStyleProperty;)V:GetOnItemSelectedPropertyChanged_Lcom_devexpress_navigation_tabs_models_SelectedStyleProperty_Handler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onItemSpacingPropertyChanged:()V:GetOnItemSpacingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onItemStylePropertyChanged:(Lcom/devexpress/navigation/tabs/models/StyleProperty;)V:GetOnItemStylePropertyChanged_Lcom_devexpress_navigation_tabs_models_StyleProperty_Handler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onPanelBackgroundPropertyChanged:()V:GetOnPanelBackgroundPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onPanelIndentPropertyChanged:()V:GetOnPanelIndentPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onPanelPaddingPropertyChanged:()V:GetOnPanelPaddingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
+			"n_onPanelSpacingPropertyChanged:()V:GetOnPanelSpacingPropertyChangedHandler:DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance/IOnAppearancePropertyChangeListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance+IOnAppearancePropertyChangeListenerImplementor, DevExpress.Android.Navigation", TabControlAppearance_OnAppearancePropertyChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance+IOnAppearancePropertyChangeListenerImplementor, DXNavigation.a", TabControlAppearance_OnAppearancePropertyChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -30,7 +30,7 @@ public class TabControlAppearance_OnAppearancePropertyChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == TabControlAppearance_OnAppearancePropertyChangeListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance+IOnAppearancePropertyChangeListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Tabcontrol.TabControlAppearance+IOnAppearancePropertyChangeListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

@@ -11,9 +11,9 @@ public class SwipeViewListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_swipeItemTap:(IILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)V:GetSwipeItemTap_IILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerInvoker, DevExpress.Android.CollectionView\n" +
+			"n_swipeItemTap:(IILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)V:GetSwipeItemTap_IILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerInvoker, DXCollectionView.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerImplementor, DevExpress.Android.CollectionView", SwipeViewListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerImplementor, DXCollectionView.a", SwipeViewListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class SwipeViewListenerImplementor
 	{
 		super ();
 		if (getClass () == SwipeViewListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerImplementor, DevExpress.Android.CollectionView", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerImplementor, DXCollectionView.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

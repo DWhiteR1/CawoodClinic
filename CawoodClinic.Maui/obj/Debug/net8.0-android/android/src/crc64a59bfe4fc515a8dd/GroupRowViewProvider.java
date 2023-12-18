@@ -12,9 +12,9 @@ public class GroupRowViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_canUpdate:(I)Z:GetCanUpdate_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getView:(Landroid/content/Context;I)Landroid/view/View;:GetGetView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderBaseInvoker, DevExpress.Android.Grid\n" +
-			"n_updateView:(Landroid/content/Context;Landroid/view/View;I)V:GetUpdateView_Landroid_content_Context_Landroid_view_View_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderBaseInvoker, DevExpress.Android.Grid\n" +
+			"n_canUpdate:(I)Z:GetCanUpdate_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderInvoker, DXGrid.a\n" +
+			"n_getView:(Landroid/content/Context;I)Landroid/view/View;:GetGetView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderBaseInvoker, DXGrid.a\n" +
+			"n_updateView:(Landroid/content/Context;Landroid/view/View;I)V:GetUpdateView_Landroid_content_Context_Landroid_view_View_IHandler:DevExpress.Android.Grid.Providers.IGroupRowViewProviderBaseInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.GroupRowViewProvider, DevExpress.Maui.DataGrid", GroupRowViewProvider.class, __md_methods);
 	}

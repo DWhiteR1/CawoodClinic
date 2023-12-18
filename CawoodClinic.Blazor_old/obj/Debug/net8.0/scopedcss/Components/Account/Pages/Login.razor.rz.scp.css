@@ -1,0 +1,4 @@
+
+.custom-height[b-9mifw451rd] {
+    height: calc(100vh); /* Subtracting 50 pixels from the viewport height */
+}

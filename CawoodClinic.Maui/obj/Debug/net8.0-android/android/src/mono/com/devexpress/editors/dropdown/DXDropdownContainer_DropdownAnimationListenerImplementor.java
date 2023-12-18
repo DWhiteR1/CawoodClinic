@@ -11,12 +11,12 @@ public class DXDropdownContainer_DropdownAnimationListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_closingAnimationComplete:()V:GetClosingAnimationCompleteHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_closingAnimationWillStart:()V:GetClosingAnimationWillStartHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_openingAnimationComplete:()V:GetOpeningAnimationCompleteHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_openingAnimationWillStart:()V:GetOpeningAnimationWillStartHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_closingAnimationComplete:()V:GetClosingAnimationCompleteHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DXEditors.a\n" +
+			"n_closingAnimationWillStart:()V:GetClosingAnimationWillStartHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DXEditors.a\n" +
+			"n_openingAnimationComplete:()V:GetOpeningAnimationCompleteHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DXEditors.a\n" +
+			"n_openingAnimationWillStart:()V:GetOpeningAnimationWillStartHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/IDropdownAnimationListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownAnimationListenerImplementor, DevExpress.Android.Editors", DXDropdownContainer_DropdownAnimationListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownAnimationListenerImplementor, DXEditors.a", DXDropdownContainer_DropdownAnimationListenerImplementor.class, __md_methods);
 	}
 
 
@@ -24,7 +24,7 @@ public class DXDropdownContainer_DropdownAnimationListenerImplementor
 	{
 		super ();
 		if (getClass () == DXDropdownContainer_DropdownAnimationListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownAnimationListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+IDropdownAnimationListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

@@ -11,9 +11,9 @@ public class TabsView_OnTabSelectedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTabSelected:(Lcom/devexpress/navigation/tabs/views/TabItemView;II)V:GetOnTabSelected_Lcom_devexpress_navigation_tabs_views_TabItemView_IIHandler:DevExpress.Android.Navigation.TabsView/IOnTabSelectedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onTabSelected:(Lcom/devexpress/navigation/tabs/views/TabItemView;II)V:GetOnTabSelected_Lcom_devexpress_navigation_tabs_views_TabItemView_IIHandler:DevExpress.Android.Navigation.TabsView/IOnTabSelectedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabsView+IOnTabSelectedListenerImplementor, DevExpress.Android.Navigation", TabsView_OnTabSelectedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabsView+IOnTabSelectedListenerImplementor, DXNavigation.a", TabsView_OnTabSelectedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TabsView_OnTabSelectedListenerImplementor
 	{
 		super ();
 		if (getClass () == TabsView_OnTabSelectedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabsView+IOnTabSelectedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabsView+IOnTabSelectedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

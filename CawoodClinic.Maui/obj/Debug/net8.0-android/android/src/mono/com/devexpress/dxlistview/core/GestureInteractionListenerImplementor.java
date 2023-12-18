@@ -11,15 +11,15 @@ public class GestureInteractionListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_down:(Landroid/view/MotionEvent;)V:GetDown_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_move:(Landroid/view/MotionEvent;)Z:GetMove_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_onDoubleTap:(Landroid/view/MotionEvent;)Z:GetOnDoubleTap_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_onLongPress:(Landroid/view/MotionEvent;)V:GetOnLongPress_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_onSingleTapConfirmed:(Landroid/view/MotionEvent;)Z:GetOnSingleTapConfirmed_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_onSingleTapUp:(Landroid/view/MotionEvent;)Z:GetOnSingleTapUp_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
-			"n_up:(Landroid/view/MotionEvent;)Z:GetUp_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DevExpress.Android.CollectionView\n" +
+			"n_down:(Landroid/view/MotionEvent;)V:GetDown_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_move:(Landroid/view/MotionEvent;)Z:GetMove_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_onDoubleTap:(Landroid/view/MotionEvent;)Z:GetOnDoubleTap_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_onLongPress:(Landroid/view/MotionEvent;)V:GetOnLongPress_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_onSingleTapConfirmed:(Landroid/view/MotionEvent;)Z:GetOnSingleTapConfirmed_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_onSingleTapUp:(Landroid/view/MotionEvent;)Z:GetOnSingleTapUp_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
+			"n_up:(Landroid/view/MotionEvent;)Z:GetUp_Landroid_view_MotionEvent_Handler:DevExpress.Android.CollectionView.Core.IGestureInteractionListenerInvoker, DXCollectionView.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Core.IGestureInteractionListenerImplementor, DevExpress.Android.CollectionView", GestureInteractionListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Core.IGestureInteractionListenerImplementor, DXCollectionView.a", GestureInteractionListenerImplementor.class, __md_methods);
 	}
 
 
@@ -27,7 +27,7 @@ public class GestureInteractionListenerImplementor
 	{
 		super ();
 		if (getClass () == GestureInteractionListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Core.IGestureInteractionListenerImplementor, DevExpress.Android.CollectionView", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Core.IGestureInteractionListenerImplementor, DXCollectionView.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

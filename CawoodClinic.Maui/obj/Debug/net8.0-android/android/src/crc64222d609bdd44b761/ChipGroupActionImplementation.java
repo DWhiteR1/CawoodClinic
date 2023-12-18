@@ -11,7 +11,7 @@ public class ChipGroupActionImplementation
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onLayoutChanged:()V:GetOnLayoutChangedHandler:DevExpress.Android.Editors.IChipGroupActionInvoker, DevExpress.Android.Editors\n" +
+			"n_onLayoutChanged:()V:GetOnLayoutChangedHandler:DevExpress.Android.Editors.IChipGroupActionInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.ChipGroupActionImplementation, DevExpress.Maui.Editors", ChipGroupActionImplementation.class, __md_methods);
 	}

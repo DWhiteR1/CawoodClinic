@@ -11,7 +11,7 @@ public class ColumnHeaderViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getColumnHeaderView:(Landroid/content/Context;I)Landroid/view/View;:GetGetColumnHeaderView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IColumnHeaderViewProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getColumnHeaderView:(Landroid/content/Context;I)Landroid/view/View;:GetGetColumnHeaderView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IColumnHeaderViewProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.ColumnHeaderViewProvider, DevExpress.Maui.DataGrid", ColumnHeaderViewProvider.class, __md_methods);
 	}

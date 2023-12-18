@@ -11,9 +11,9 @@ public class GridRowSwipeController_OnLayoutListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_layoutViews:()V:GetLayoutViewsHandler:DevExpress.Android.Grid.Layout.GridRowSwipeController/IOnLayoutListenerInvoker, DevExpress.Android.Grid\n" +
+			"n_layoutViews:()V:GetLayoutViewsHandler:DevExpress.Android.Grid.Layout.GridRowSwipeController/IOnLayoutListenerInvoker, DXGrid.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Grid.Layout.GridRowSwipeController+IOnLayoutListenerImplementor, DevExpress.Android.Grid", GridRowSwipeController_OnLayoutListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Grid.Layout.GridRowSwipeController+IOnLayoutListenerImplementor, DXGrid.a", GridRowSwipeController_OnLayoutListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class GridRowSwipeController_OnLayoutListenerImplementor
 	{
 		super ();
 		if (getClass () == GridRowSwipeController_OnLayoutListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Layout.GridRowSwipeController+IOnLayoutListenerImplementor, DevExpress.Android.Grid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Layout.GridRowSwipeController+IOnLayoutListenerImplementor, DXGrid.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

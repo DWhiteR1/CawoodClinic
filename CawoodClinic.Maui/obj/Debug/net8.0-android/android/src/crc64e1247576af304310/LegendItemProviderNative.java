@@ -11,8 +11,8 @@ public class LegendItemProviderNative
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getLegendItemCount:()I:GetGetLegendItemCountHandler:DevExpress.Android.Charts.ILegendItemProviderInvoker, DevExpress.Android.Charts\n" +
-			"n_getLegendItem:(I)Lcom/devexpress/dxcharts/CustomLegendItem;:GetGetLegendItem_IHandler:DevExpress.Android.Charts.ILegendItemProviderInvoker, DevExpress.Android.Charts\n" +
+			"n_getLegendItemCount:()I:GetGetLegendItemCountHandler:DevExpress.Android.Charts.ILegendItemProviderInvoker, DXCharts.a\n" +
+			"n_getLegendItem:(I)Lcom/devexpress/dxcharts/CustomLegendItem;:GetGetLegendItem_IHandler:DevExpress.Android.Charts.ILegendItemProviderInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.LegendItemProviderNative, DevExpress.Maui.Charts", LegendItemProviderNative.class, __md_methods);
 	}

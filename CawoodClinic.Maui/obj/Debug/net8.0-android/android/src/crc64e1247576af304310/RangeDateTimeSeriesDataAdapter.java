@@ -12,10 +12,10 @@ public class RangeDateTimeSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getArgument:(I)Ljava/util/Date;:GetGetArgument_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue1:(I)D:GetGetValue1_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue2:(I)D:GetGetValue2_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DXCharts.a\n" +
+			"n_getArgument:(I)Ljava/util/Date;:GetGetArgument_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue1:(I)D:GetGetValue1_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue2:(I)D:GetGetValue2_IHandler:DevExpress.Android.Charts.IRangeDateTimeSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.RangeDateTimeSeriesDataAdapter, DevExpress.Maui.Charts", RangeDateTimeSeriesDataAdapter.class, __md_methods);
 	}

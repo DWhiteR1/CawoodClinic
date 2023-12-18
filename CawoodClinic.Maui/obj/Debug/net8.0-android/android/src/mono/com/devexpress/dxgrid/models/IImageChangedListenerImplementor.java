@@ -11,9 +11,9 @@ public class IImageChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onImageChanged:()V:GetOnImageChangedHandler:DevExpress.Android.Grid.Models.IImageChangedListenerInvoker, DevExpress.Android.Grid\n" +
+			"n_onImageChanged:()V:GetOnImageChangedHandler:DevExpress.Android.Grid.Models.IImageChangedListenerInvoker, DXGrid.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Grid.Models.IImageChangedListenerImplementor, DevExpress.Android.Grid", IImageChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Grid.Models.IImageChangedListenerImplementor, DXGrid.a", IImageChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class IImageChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == IImageChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Models.IImageChangedListenerImplementor, DevExpress.Android.Grid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Models.IImageChangedListenerImplementor, DXGrid.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

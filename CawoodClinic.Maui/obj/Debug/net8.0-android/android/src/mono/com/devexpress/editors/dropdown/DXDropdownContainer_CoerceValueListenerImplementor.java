@@ -11,9 +11,9 @@ public class DXDropdownContainer_CoerceValueListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_coerceIsDropdownOpen:()V:GetCoerceIsDropdownOpenHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/ICoerceValueListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_coerceIsDropdownOpen:()V:GetCoerceIsDropdownOpenHandler:DevExpress.Android.Editors.Dropdown.DXDropdownContainer/ICoerceValueListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+ICoerceValueListenerImplementor, DevExpress.Android.Editors", DXDropdownContainer_CoerceValueListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+ICoerceValueListenerImplementor, DXEditors.a", DXDropdownContainer_CoerceValueListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class DXDropdownContainer_CoerceValueListenerImplementor
 	{
 		super ();
 		if (getClass () == DXDropdownContainer_CoerceValueListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+ICoerceValueListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Dropdown.DXDropdownContainer+ICoerceValueListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

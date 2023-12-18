@@ -11,21 +11,21 @@ public class GridAction
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_canDragRow:(I)Z:GetCanDragRow_IHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_canDropRow:(II)Z:GetCanDropRow_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_canLoadMore:()Z:GetCanLoadMoreHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_canPullToRefresh:()Z:GetCanPullToRefreshHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_cellDoubleTap:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellDoubleTap_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_cellLongPress:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellLongPress_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_cellTap:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellTap_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_cellTapConfirmed:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellTapConfirmed_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_closeEditor:(Z)Z:GetCloseEditor_ZHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_dropRow:(II)V:GetDropRow_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_loadMore:()V:GetLoadMoreHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_pullTeRefresh:()V:GetPullTeRefreshHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_scrolled:(Lcom/devexpress/dxgrid/DXGridViewScrolledEventArgs;)V:GetScrolled_Lcom_devexpress_dxgrid_DXGridViewScrolledEventArgs_Handler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_selectionChanged:(Landroid/view/View;II)V:GetSelectionChanged_Landroid_view_View_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
-			"n_swipeButtonShowing:(ZII)Z:GetSwipeButtonShowing_ZIIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DevExpress.Android.Grid\n" +
+			"n_canDragRow:(I)Z:GetCanDragRow_IHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_canDropRow:(II)Z:GetCanDropRow_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_canLoadMore:()Z:GetCanLoadMoreHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_canPullToRefresh:()Z:GetCanPullToRefreshHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_cellDoubleTap:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellDoubleTap_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_cellLongPress:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellLongPress_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_cellTap:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellTap_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_cellTapConfirmed:(Lcom/devexpress/dxgrid/models/GridElement;II)V:GetCellTapConfirmed_Lcom_devexpress_dxgrid_models_GridElement_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_closeEditor:(Z)Z:GetCloseEditor_ZHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_dropRow:(II)V:GetDropRow_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_loadMore:()V:GetLoadMoreHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_pullTeRefresh:()V:GetPullTeRefreshHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_scrolled:(Lcom/devexpress/dxgrid/DXGridViewScrolledEventArgs;)V:GetScrolled_Lcom_devexpress_dxgrid_DXGridViewScrolledEventArgs_Handler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_selectionChanged:(Landroid/view/View;II)V:GetSelectionChanged_Landroid_view_View_IIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
+			"n_swipeButtonShowing:(ZII)Z:GetSwipeButtonShowing_ZIIHandler:DevExpress.Android.Grid.Providers.IGridActionInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.GridAction, DevExpress.Maui.DataGrid", GridAction.class, __md_methods);
 	}

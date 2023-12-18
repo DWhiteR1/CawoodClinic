@@ -11,7 +11,7 @@ public class SeriesLabelTextProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getText:(Lcom/devexpress/dxcharts/SeriesLabelValuesBase;)Ljava/lang/String;:GetGetText_Lcom_devexpress_dxcharts_SeriesLabelValuesBase_Handler:DevExpress.Android.Charts.ISeriesLabelTextProviderInvoker, DevExpress.Android.Charts\n" +
+			"n_getText:(Lcom/devexpress/dxcharts/SeriesLabelValuesBase;)Ljava/lang/String;:GetGetText_Lcom_devexpress_dxcharts_SeriesLabelValuesBase_Handler:DevExpress.Android.Charts.ISeriesLabelTextProviderInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.SeriesLabelTextProvider, DevExpress.Maui.Charts", SeriesLabelTextProvider.class, __md_methods);
 	}

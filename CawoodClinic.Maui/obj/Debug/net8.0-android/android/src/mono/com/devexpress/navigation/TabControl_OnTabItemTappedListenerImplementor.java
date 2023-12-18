@@ -11,9 +11,9 @@ public class TabControl_OnTabItemTappedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTabItemTapped:(ILcom/devexpress/navigation/tabs/models/CancelEventArgs;)V:GetOnTabItemTapped_ILcom_devexpress_navigation_tabs_models_CancelEventArgs_Handler:DevExpress.Android.Navigation.TabControl/IOnTabItemTappedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onTabItemTapped:(ILcom/devexpress/navigation/tabs/models/CancelEventArgs;)V:GetOnTabItemTapped_ILcom_devexpress_navigation_tabs_models_CancelEventArgs_Handler:DevExpress.Android.Navigation.TabControl/IOnTabItemTappedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabControl+IOnTabItemTappedListenerImplementor, DevExpress.Android.Navigation", TabControl_OnTabItemTappedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabControl+IOnTabItemTappedListenerImplementor, DXNavigation.a", TabControl_OnTabItemTappedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TabControl_OnTabItemTappedListenerImplementor
 	{
 		super ();
 		if (getClass () == TabControl_OnTabItemTappedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabControl+IOnTabItemTappedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabControl+IOnTabItemTappedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

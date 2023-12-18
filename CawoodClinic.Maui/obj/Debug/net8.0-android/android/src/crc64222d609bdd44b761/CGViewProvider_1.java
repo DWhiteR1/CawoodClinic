@@ -11,11 +11,11 @@ public class CGViewProvider_1
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getItemCount:()I:GetGetItemCountHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_getViewByIndex:(I)Landroid/view/View;:GetGetViewByIndex_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_getViewTypeByIndex:(I)Lcom/devexpress/editors/ChipItemsProviderViewType;:GetGetViewTypeByIndex_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_recycleView:(Landroid/view/View;II)V:GetRecycleView_Landroid_view_View_IIHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_updateView:(Landroid/view/View;I)V:GetUpdateView_Landroid_view_View_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DevExpress.Android.Editors\n" +
+			"n_getItemCount:()I:GetGetItemCountHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DXEditors.a\n" +
+			"n_getViewByIndex:(I)Landroid/view/View;:GetGetViewByIndex_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DXEditors.a\n" +
+			"n_getViewTypeByIndex:(I)Lcom/devexpress/editors/ChipItemsProviderViewType;:GetGetViewTypeByIndex_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DXEditors.a\n" +
+			"n_recycleView:(Landroid/view/View;II)V:GetRecycleView_Landroid_view_View_IIHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DXEditors.a\n" +
+			"n_updateView:(Landroid/view/View;I)V:GetUpdateView_Landroid_view_View_IHandler:DevExpress.Android.Editors.IChipItemViewProviderInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.CGViewProvider`1, DevExpress.Maui.Editors", CGViewProvider_1.class, __md_methods);
 	}

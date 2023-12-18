@@ -13,12 +13,12 @@ public class DayViewBaseHandlerDelegate_1
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_dayViewTopRowIndexChanged:(D)V:GetDayViewTopRowIndexChanged_DHandler:DevExpress.Android.Scheduler.Views.Interop.INativeDayViewBaseInteropInvoker, DevExpress.Android.Scheduler\n" +
-			"n_requestContainers:(I)[Lcom/devexpress/scheduler/viewInfos/containers/DayContainerViewInfo;:GetRequestContainers_IHandler:DevExpress.Android.Scheduler.Views.Interop.INativeDayViewBaseInteropInvoker, DevExpress.Android.Scheduler\n" +
-			"n_doubleTap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetDoubleTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_longPress:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetLongPress_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_tap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DevExpress.Android.Scheduler\n" +
-			"n_idle:()V:GetIdleHandler:DevExpress.Android.Scheduler.Views.Interop.INativeIdleProviderInvoker, DevExpress.Android.Scheduler\n" +
+			"n_dayViewTopRowIndexChanged:(D)V:GetDayViewTopRowIndexChanged_DHandler:DevExpress.Android.Scheduler.Views.Interop.INativeDayViewBaseInteropInvoker, DXScheduler.a\n" +
+			"n_requestContainers:(I)[Lcom/devexpress/scheduler/viewInfos/containers/DayContainerViewInfo;:GetRequestContainers_IHandler:DevExpress.Android.Scheduler.Views.Interop.INativeDayViewBaseInteropInvoker, DXScheduler.a\n" +
+			"n_doubleTap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetDoubleTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
+			"n_longPress:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetLongPress_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
+			"n_tap:(Lcom/devexpress/scheduler/views/hittesting/SchedulerHitInfo;)V:GetTap_Lcom_devexpress_scheduler_views_hittesting_SchedulerHitInfo_Handler:DevExpress.Android.Scheduler.Views.Interop.INativeGestureListenerInvoker, DXScheduler.a\n" +
+			"n_idle:()V:GetIdleHandler:DevExpress.Android.Scheduler.Views.Interop.INativeIdleProviderInvoker, DXScheduler.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Scheduler.Internal.DayViewBaseHandlerDelegate`1, DevExpress.Maui.Scheduler", DayViewBaseHandlerDelegate_1.class, __md_methods);
 	}

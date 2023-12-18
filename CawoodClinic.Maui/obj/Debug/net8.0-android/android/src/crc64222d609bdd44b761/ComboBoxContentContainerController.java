@@ -11,10 +11,10 @@ public class ComboBoxContentContainerController
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_isOpened:()Z:GetIsOpenedHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_close:(Z)Z:GetClose_ZHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_update:()V:GetUpdateHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_isOpened:()Z:GetIsOpenedHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DXEditors.a\n" +
+			"n_close:(Z)Z:GetClose_ZHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DXEditors.a\n" +
+			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DXEditors.a\n" +
+			"n_update:()V:GetUpdateHandler:DevExpress.Android.Editors.IContentContainerControllerListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.ComboBoxContentContainerController, DevExpress.Maui.Editors", ComboBoxContentContainerController.class, __md_methods);
 	}

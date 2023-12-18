@@ -11,11 +11,11 @@ public class DateEdit_DateChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onMaxDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnMaxDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onMinDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnMinDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DXEditors.a\n" +
+			"n_onMaxDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnMaxDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DXEditors.a\n" +
+			"n_onMinDateChanged:(Lcom/devexpress/editors/DateEdit;III)V:GetOnMinDateChanged_Lcom_devexpress_editors_DateEdit_IIIHandler:DevExpress.Android.Editors.DateEdit/IDateChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.DateEdit+IDateChangedListenerImplementor, DevExpress.Android.Editors", DateEdit_DateChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.DateEdit+IDateChangedListenerImplementor, DXEditors.a", DateEdit_DateChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class DateEdit_DateChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == DateEdit_DateChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DateEdit+IDateChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DateEdit+IDateChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

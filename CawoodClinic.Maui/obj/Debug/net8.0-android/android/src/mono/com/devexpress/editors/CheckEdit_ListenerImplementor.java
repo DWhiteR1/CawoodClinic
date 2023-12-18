@@ -11,9 +11,9 @@ public class CheckEdit_ListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onValueChanged:(Lcom/devexpress/editors/DXCheckEditValue;)V:GetOnValueChanged_Lcom_devexpress_editors_DXCheckEditValue_Handler:DevExpress.Android.Editors.CheckEdit/IListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onValueChanged:(Lcom/devexpress/editors/DXCheckEditValue;)V:GetOnValueChanged_Lcom_devexpress_editors_DXCheckEditValue_Handler:DevExpress.Android.Editors.CheckEdit/IListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.CheckEdit+IListenerImplementor, DevExpress.Android.Editors", CheckEdit_ListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.CheckEdit+IListenerImplementor, DXEditors.a", CheckEdit_ListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class CheckEdit_ListenerImplementor
 	{
 		super ();
 		if (getClass () == CheckEdit_ListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.CheckEdit+IListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.CheckEdit+IListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

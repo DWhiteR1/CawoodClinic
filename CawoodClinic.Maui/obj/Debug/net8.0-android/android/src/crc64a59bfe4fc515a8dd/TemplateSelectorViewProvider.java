@@ -11,10 +11,10 @@ public class TemplateSelectorViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_requestView:(Landroid/content/Context;I)Landroid/view/View;:GetRequestView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_storeAsFree:(Landroid/view/View;)V:GetStoreAsFree_Landroid_view_View_Handler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_updateAppearance:(Landroid/view/View;Lcom/devexpress/dxgrid/models/columns/GridColumnModel;Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;I)V:GetUpdateAppearance_Landroid_view_View_Lcom_devexpress_dxgrid_models_columns_GridColumnModel_Lcom_devexpress_dxgrid_models_appearance_AppearanceBase_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_updateContent:(Landroid/view/View;Lcom/devexpress/dxgrid/providers/DataProvider;Ljava/lang/String;I)V:GetUpdateContent_Landroid_view_View_Lcom_devexpress_dxgrid_providers_DataProvider_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_requestView:(Landroid/content/Context;I)Landroid/view/View;:GetRequestView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DXGrid.a\n" +
+			"n_storeAsFree:(Landroid/view/View;)V:GetStoreAsFree_Landroid_view_View_Handler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DXGrid.a\n" +
+			"n_updateAppearance:(Landroid/view/View;Lcom/devexpress/dxgrid/models/columns/GridColumnModel;Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;I)V:GetUpdateAppearance_Landroid_view_View_Lcom_devexpress_dxgrid_models_columns_GridColumnModel_Lcom_devexpress_dxgrid_models_appearance_AppearanceBase_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DXGrid.a\n" +
+			"n_updateContent:(Landroid/view/View;Lcom/devexpress/dxgrid/providers/DataProvider;Ljava/lang/String;I)V:GetUpdateContent_Landroid_view_View_Lcom_devexpress_dxgrid_providers_DataProvider_Ljava_lang_String_IHandler:DevExpress.Android.Grid.Providers.IViewProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.TemplateSelectorViewProvider, DevExpress.Maui.DataGrid", TemplateSelectorViewProvider.class, __md_methods);
 	}

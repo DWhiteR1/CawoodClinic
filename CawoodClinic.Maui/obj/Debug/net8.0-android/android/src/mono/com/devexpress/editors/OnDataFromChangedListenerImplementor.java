@@ -11,10 +11,10 @@ public class OnDataFromChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_groupCollapseChanged:(IZ)V:GetGroupCollapseChanged_IZHandler:DevExpress.Android.Editors.IOnDataFromChangedListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_sizeChanged:(Lcom/devexpress/editors/DataFormView;)V:GetSizeChanged_Lcom_devexpress_editors_DataFormView_Handler:DevExpress.Android.Editors.IOnDataFromChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_groupCollapseChanged:(IZ)V:GetGroupCollapseChanged_IZHandler:DevExpress.Android.Editors.IOnDataFromChangedListenerInvoker, DXEditors.a\n" +
+			"n_sizeChanged:(Lcom/devexpress/editors/DataFormView;)V:GetSizeChanged_Lcom_devexpress_editors_DataFormView_Handler:DevExpress.Android.Editors.IOnDataFromChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IOnDataFromChangedListenerImplementor, DevExpress.Android.Editors", OnDataFromChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IOnDataFromChangedListenerImplementor, DXEditors.a", OnDataFromChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class OnDataFromChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == OnDataFromChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IOnDataFromChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IOnDataFromChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

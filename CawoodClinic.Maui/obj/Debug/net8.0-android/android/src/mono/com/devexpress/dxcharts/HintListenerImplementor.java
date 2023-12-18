@@ -11,10 +11,10 @@ public class HintListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onHide:()V:GetOnHideHandler:DevExpress.Android.Charts.IHintListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onShow:(Lcom/devexpress/dxcharts/HintInfo;)V:GetOnShow_Lcom_devexpress_dxcharts_HintInfo_Handler:DevExpress.Android.Charts.IHintListenerInvoker, DevExpress.Android.Charts\n" +
+			"n_onHide:()V:GetOnHideHandler:DevExpress.Android.Charts.IHintListenerInvoker, DXCharts.a\n" +
+			"n_onShow:(Lcom/devexpress/dxcharts/HintInfo;)V:GetOnShow_Lcom_devexpress_dxcharts_HintInfo_Handler:DevExpress.Android.Charts.IHintListenerInvoker, DXCharts.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Charts.IHintListenerImplementor, DevExpress.Android.Charts", HintListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Charts.IHintListenerImplementor, DXCharts.a", HintListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class HintListenerImplementor
 	{
 		super ();
 		if (getClass () == HintListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.IHintListenerImplementor, DevExpress.Android.Charts", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.IHintListenerImplementor, DXCharts.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

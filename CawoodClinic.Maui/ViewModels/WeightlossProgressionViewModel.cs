@@ -1,4 +1,8 @@
-﻿using System;
+﻿using CawoodClinic.Maui.Popups;
+using CommunityToolkit.Maui.Core;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace CawoodClinic.Maui.ViewModels;
 
-public partial class WeightlossProgressionViewModel
+public partial class WeightlossProgressionViewModel : ObservableObject
 {
     public CountryGdp GdpValueForChina { get; }
-
-    public WeightlossProgressionViewModel()
+    private readonly IPopupService popupService;
+    public WeightlossProgressionViewModel(IPopupService popupService)
     {
 
         GdpValueForChina = new CountryGdp(
@@ -32,7 +36,15 @@ public partial class WeightlossProgressionViewModel
             new GdpValue(new DateTime(2023, 12, 10), 89.2),
             new GdpValue(new DateTime(2023, 12, 12), 88.1)
         );
+        this.popupService = popupService;
     }
+
+    [RelayCommand]
+    public void AddWeight()
+    {
+        this.popupService.ShowPopup<WeightPickerPopupViewModel>();
+    }
+
 }
 
 public class CountryGdp

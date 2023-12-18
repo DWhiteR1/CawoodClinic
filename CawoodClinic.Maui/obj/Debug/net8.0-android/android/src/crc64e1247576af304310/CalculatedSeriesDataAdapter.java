@@ -12,7 +12,7 @@ public class CalculatedSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getSource:()Lcom/devexpress/dxcharts/Series;:GetGetSourceHandler:DevExpress.Android.Charts.ICalculatedSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getSource:()Lcom/devexpress/dxcharts/Series;:GetGetSourceHandler:DevExpress.Android.Charts.ICalculatedSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.CalculatedSeriesDataAdapter, DevExpress.Maui.Charts", CalculatedSeriesDataAdapter.class, __md_methods);
 	}

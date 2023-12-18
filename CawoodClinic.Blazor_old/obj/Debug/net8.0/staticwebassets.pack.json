@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Blazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CawoodClinic.Blazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CawoodClinic.Blazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Blazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Blazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Blazor\\wwwroot\\cerulean\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\cerulean\\bootstrap.min.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CawoodClinic.Blazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CawoodClinic.Blazor.props",
+      "PackagePath": "build\\CawoodClinic.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CawoodClinic.Blazor.props",
+      "PackagePath": "buildMultiTargeting\\CawoodClinic.Blazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CawoodClinic.Blazor.props",
+      "PackagePath": "buildTransitive\\CawoodClinic.Blazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

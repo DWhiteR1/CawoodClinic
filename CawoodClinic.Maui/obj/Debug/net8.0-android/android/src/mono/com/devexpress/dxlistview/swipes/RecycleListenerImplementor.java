@@ -11,9 +11,9 @@ public class RecycleListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_recycleItem:(Lcom/devexpress/dxlistview/layouts/LayoutElement;)V:GetRecycleItem_Lcom_devexpress_dxlistview_layouts_LayoutElement_Handler:DevExpress.Android.CollectionView.Swipes.IRecycleListenerInvoker, DevExpress.Android.CollectionView\n" +
+			"n_recycleItem:(Lcom/devexpress/dxlistview/layouts/LayoutElement;)V:GetRecycleItem_Lcom_devexpress_dxlistview_layouts_LayoutElement_Handler:DevExpress.Android.CollectionView.Swipes.IRecycleListenerInvoker, DXCollectionView.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Swipes.IRecycleListenerImplementor, DevExpress.Android.CollectionView", RecycleListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.CollectionView.Swipes.IRecycleListenerImplementor, DXCollectionView.a", RecycleListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class RecycleListenerImplementor
 	{
 		super ();
 		if (getClass () == RecycleListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Swipes.IRecycleListenerImplementor, DevExpress.Android.CollectionView", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.CollectionView.Swipes.IRecycleListenerImplementor, DXCollectionView.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

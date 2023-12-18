@@ -11,9 +11,9 @@ public class PieSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getLabel:(I)Ljava/lang/String;:GetGetLabel_IHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DXCharts.a\n" +
+			"n_getLabel:(I)Ljava/lang/String;:GetGetLabel_IHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IPieSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.PieSeriesDataAdapter, DevExpress.Maui.Charts", PieSeriesDataAdapter.class, __md_methods);
 	}

@@ -11,17 +11,17 @@ public class SeriesDataChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onItemAdded:()V:GetOnItemAddedHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemChanged:(I)V:GetOnItemChanged_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemInserted:(I)V:GetOnItemInserted_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemRemoved:(I)V:GetOnItemRemoved_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemsAdded:(I)V:GetOnItemsAdded_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemsChanged:(II)V:GetOnItemsChanged_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemsInserted:(II)V:GetOnItemsInserted_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onItemsRemoved:(II)V:GetOnItemsRemoved_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
-			"n_onReloaded:()V:GetOnReloadedHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DevExpress.Android.Charts\n" +
+			"n_onItemAdded:()V:GetOnItemAddedHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemChanged:(I)V:GetOnItemChanged_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemInserted:(I)V:GetOnItemInserted_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemRemoved:(I)V:GetOnItemRemoved_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemsAdded:(I)V:GetOnItemsAdded_IHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemsChanged:(II)V:GetOnItemsChanged_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemsInserted:(II)V:GetOnItemsInserted_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onItemsRemoved:(II)V:GetOnItemsRemoved_IIHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
+			"n_onReloaded:()V:GetOnReloadedHandler:DevExpress.Android.Charts.ISeriesDataChangedListenerInvoker, DXCharts.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Charts.ISeriesDataChangedListenerImplementor, DevExpress.Android.Charts", SeriesDataChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Charts.ISeriesDataChangedListenerImplementor, DXCharts.a", SeriesDataChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -29,7 +29,7 @@ public class SeriesDataChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == SeriesDataChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.ISeriesDataChangedListenerImplementor, DevExpress.Android.Charts", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.ISeriesDataChangedListenerImplementor, DXCharts.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

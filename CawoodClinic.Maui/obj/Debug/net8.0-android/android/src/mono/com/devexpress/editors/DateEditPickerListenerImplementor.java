@@ -11,10 +11,10 @@ public class DateEditPickerListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_dismiss:()V:GetDismissHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_dismiss:()V:GetDismissHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DXEditors.a\n" +
+			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IDateEditPickerListenerImplementor, DevExpress.Android.Editors", DateEditPickerListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IDateEditPickerListenerImplementor, DXEditors.a", DateEditPickerListenerImplementor.class, __md_methods);
 	}
 
 
@@ -22,7 +22,7 @@ public class DateEditPickerListenerImplementor
 	{
 		super ();
 		if (getClass () == DateEditPickerListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IDateEditPickerListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IDateEditPickerListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

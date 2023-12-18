@@ -11,7 +11,7 @@ public class CalendarHeaderViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_update:(Landroid/view/View;IIILcom/devexpress/editors/pickers/CalendarViewStates;)V:GetUpdate_Landroid_view_View_IIILcom_devexpress_editors_pickers_CalendarViewStates_Handler:DevExpress.Android.Editors.Pickers.Providers.IHeaderViewProviderInvoker, DevExpress.Android.Editors\n" +
+			"n_update:(Landroid/view/View;IIILcom/devexpress/editors/pickers/CalendarViewStates;)V:GetUpdate_Landroid_view_View_IIILcom_devexpress_editors_pickers_CalendarViewStates_Handler:DevExpress.Android.Editors.Pickers.Providers.IHeaderViewProviderInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.CalendarHeaderViewProvider, DevExpress.Maui.Editors", CalendarHeaderViewProvider.class, __md_methods);
 	}

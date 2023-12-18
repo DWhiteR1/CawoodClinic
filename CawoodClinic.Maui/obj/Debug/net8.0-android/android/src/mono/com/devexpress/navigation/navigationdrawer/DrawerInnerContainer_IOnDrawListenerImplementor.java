@@ -11,9 +11,9 @@ public class DrawerInnerContainer_IOnDrawListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_drawChild:(Landroid/graphics/Canvas;Landroid/view/View;J)V:GetDrawChild_Landroid_graphics_Canvas_Landroid_view_View_JHandler:DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer/IOnDrawListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_drawChild:(Landroid/graphics/Canvas;Landroid/view/View;J)V:GetDrawChild_Landroid_graphics_Canvas_Landroid_view_View_JHandler:DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer/IOnDrawListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer+IOnDrawListenerImplementor, DevExpress.Android.Navigation", DrawerInnerContainer_IOnDrawListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer+IOnDrawListenerImplementor, DXNavigation.a", DrawerInnerContainer_IOnDrawListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class DrawerInnerContainer_IOnDrawListenerImplementor
 	{
 		super ();
 		if (getClass () == DrawerInnerContainer_IOnDrawListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer+IOnDrawListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.Navigationdrawer.DrawerInnerContainer+IOnDrawListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

@@ -1,0 +1,15 @@
+﻿@using CawoodClinic.Blazor.Services
+
+@inject NavigationManager navigationManager
+@inject FullScreenService fullScreenService
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        fullScreenService.ShowFullScreen = true;
+        //Refresh the page to force the user to login
+        StateHasChanged();
+        var returnUrl = "/" + navigationManager.ToBaseRelativePath(navigationManager.Uri);
+        navigationManager.NavigateTo($"/Account/Login", forceLoad: false);
+    }
+}

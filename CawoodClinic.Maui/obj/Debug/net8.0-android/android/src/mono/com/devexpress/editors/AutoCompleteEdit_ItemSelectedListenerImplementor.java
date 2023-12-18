@@ -11,9 +11,9 @@ public class AutoCompleteEdit_ItemSelectedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onItemSelected:(Lcom/devexpress/editors/AutoCompleteEdit;Ljava/lang/Object;)V:GetOnItemSelected_Lcom_devexpress_editors_AutoCompleteEdit_Ljava_lang_Object_Handler:DevExpress.Android.Editors.AutoCompleteEdit/IItemSelectedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onItemSelected:(Lcom/devexpress/editors/AutoCompleteEdit;Ljava/lang/Object;)V:GetOnItemSelected_Lcom_devexpress_editors_AutoCompleteEdit_Ljava_lang_Object_Handler:DevExpress.Android.Editors.AutoCompleteEdit/IItemSelectedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+IItemSelectedListenerImplementor, DevExpress.Android.Editors", AutoCompleteEdit_ItemSelectedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.AutoCompleteEdit+IItemSelectedListenerImplementor, DXEditors.a", AutoCompleteEdit_ItemSelectedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class AutoCompleteEdit_ItemSelectedListenerImplementor
 	{
 		super ();
 		if (getClass () == AutoCompleteEdit_ItemSelectedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+IItemSelectedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.AutoCompleteEdit+IItemSelectedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

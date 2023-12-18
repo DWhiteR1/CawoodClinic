@@ -11,10 +11,10 @@ public class YearViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_check:(Landroid/view/View;II)Z:GetCheck_Landroid_view_View_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_request:(II)Landroid/view/View;:GetRequest_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_update:(Landroid/view/View;II)V:GetUpdate_Landroid_view_View_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DevExpress.Android.Editors\n" +
+			"n_check:(Landroid/view/View;II)Z:GetCheck_Landroid_view_View_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DXEditors.a\n" +
+			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DXEditors.a\n" +
+			"n_request:(II)Landroid/view/View;:GetRequest_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DXEditors.a\n" +
+			"n_update:(Landroid/view/View;II)V:GetUpdate_Landroid_view_View_IIHandler:DevExpress.Android.Editors.Pickers.Providers.IYearViewProviderInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.YearViewProvider, DevExpress.Maui.Editors", YearViewProvider.class, __md_methods);
 	}

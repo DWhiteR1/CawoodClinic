@@ -8,7 +8,7 @@
     <DefaultDevice>pixel_4_-_api_34</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Popups\WeightPickerPopup.xaml">
+    <MauiXaml Update="Popups\Views\WeightPickerPopupView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\WeightlossProgressionPage.xaml">

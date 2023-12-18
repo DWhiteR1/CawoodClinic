@@ -11,9 +11,9 @@ public class SelectionChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onSelectionChanged:(Lcom/devexpress/dxcharts/SelectionChangedInfo;)V:GetOnSelectionChanged_Lcom_devexpress_dxcharts_SelectionChangedInfo_Handler:DevExpress.Android.Charts.ISelectionChangedListenerInvoker, DevExpress.Android.Charts\n" +
+			"n_onSelectionChanged:(Lcom/devexpress/dxcharts/SelectionChangedInfo;)V:GetOnSelectionChanged_Lcom_devexpress_dxcharts_SelectionChangedInfo_Handler:DevExpress.Android.Charts.ISelectionChangedListenerInvoker, DXCharts.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Charts.ISelectionChangedListenerImplementor, DevExpress.Android.Charts", SelectionChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Charts.ISelectionChangedListenerImplementor, DXCharts.a", SelectionChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class SelectionChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == SelectionChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.ISelectionChangedListenerImplementor, DevExpress.Android.Charts", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Charts.ISelectionChangedListenerImplementor, DXCharts.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

@@ -12,9 +12,9 @@ public class QualitativeSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getArgument:(I)Ljava/lang/String;:GetGetArgument_IHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DXCharts.a\n" +
+			"n_getArgument:(I)Ljava/lang/String;:GetGetArgument_IHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DXCharts.a\n" +
+			"n_getValue:(I)D:GetGetValue_IHandler:DevExpress.Android.Charts.IQualitativeSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.QualitativeSeriesDataAdapter, DevExpress.Maui.Charts", QualitativeSeriesDataAdapter.class, __md_methods);
 	}

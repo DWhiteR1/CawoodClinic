@@ -11,12 +11,12 @@ public abstract class CollectionViewOwnerWrapper_1
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getCollectionView:()Landroid/view/View;:GetGetCollectionViewHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
-			"n_hasValue:()Z:GetHasValueHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
-			"n_isDataSourceEmpty:()Z:GetIsDataSourceEmptyHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
-			"n_getSelectedItemText:()Ljava/lang/CharSequence;:GetGetSelectedItemTextHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
-			"n_clearValue:()V:GetClearValueHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
-			"n_ensureSelectionVisible:()V:GetEnsureSelectionVisibleHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DevExpress.Android.Editors\n" +
+			"n_getCollectionView:()Landroid/view/View;:GetGetCollectionViewHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
+			"n_hasValue:()Z:GetHasValueHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
+			"n_isDataSourceEmpty:()Z:GetIsDataSourceEmptyHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
+			"n_getSelectedItemText:()Ljava/lang/CharSequence;:GetGetSelectedItemTextHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
+			"n_clearValue:()V:GetClearValueHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
+			"n_ensureSelectionVisible:()V:GetEnsureSelectionVisibleHandler:DevExpress.Android.Editors.Popupmanagers.ICollectionViewOwnerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Android.Internal.CollectionViewOwnerWrapper`1, DevExpress.Maui.Editors", CollectionViewOwnerWrapper_1.class, __md_methods);
 	}

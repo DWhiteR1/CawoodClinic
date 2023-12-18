@@ -11,14 +11,14 @@ public class XamarinEditViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_isPaddingInEditor:()Z:GetIsPaddingInEditorHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getEditableView:(Landroid/content/Context;I)Landroid/view/View;:GetGetEditableView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_open:(ZI)V:GetOpen_ZIHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_setRequestUpdateRunnable:(Ljava/lang/Runnable;I)V:GetSetRequestUpdateRunnable_Ljava_lang_Runnable_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_submitEditValue:(Landroid/view/View;I)Ljava/lang/String;:GetSubmitEditValue_Landroid_view_View_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_updateAppearance:(Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;I)V:GetUpdateAppearance_Lcom_devexpress_dxgrid_models_appearance_AppearanceBase_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_updateAppearance:(I)V:GetUpdateAppearance_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_updateContent:(I)V:GetUpdateContent_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_isPaddingInEditor:()Z:GetIsPaddingInEditorHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_getEditableView:(Landroid/content/Context;I)Landroid/view/View;:GetGetEditableView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_open:(ZI)V:GetOpen_ZIHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_setRequestUpdateRunnable:(Ljava/lang/Runnable;I)V:GetSetRequestUpdateRunnable_Ljava_lang_Runnable_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_submitEditValue:(Landroid/view/View;I)Ljava/lang/String;:GetSubmitEditValue_Landroid_view_View_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_updateAppearance:(Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;I)V:GetUpdateAppearance_Lcom_devexpress_dxgrid_models_appearance_AppearanceBase_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_updateAppearance:(I)V:GetUpdateAppearance_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
+			"n_updateContent:(I)V:GetUpdateContent_IHandler:DevExpress.Android.Grid.Providers.IEditViewProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.XamarinEditViewProvider, DevExpress.Maui.DataGrid", XamarinEditViewProvider.class, __md_methods);
 	}

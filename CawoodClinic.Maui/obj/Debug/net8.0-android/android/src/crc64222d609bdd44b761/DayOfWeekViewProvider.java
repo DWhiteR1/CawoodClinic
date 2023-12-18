@@ -11,10 +11,10 @@ public class DayOfWeekViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_check:(Landroid/view/View;I)Z:GetCheck_Landroid_view_View_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_request:(I)Landroid/view/View;:GetRequest_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DevExpress.Android.Editors\n" +
-			"n_update:(Landroid/view/View;I)V:GetUpdate_Landroid_view_View_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DevExpress.Android.Editors\n" +
+			"n_check:(Landroid/view/View;I)Z:GetCheck_Landroid_view_View_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DXEditors.a\n" +
+			"n_recycle:(Landroid/view/View;)V:GetRecycle_Landroid_view_View_Handler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DXEditors.a\n" +
+			"n_request:(I)Landroid/view/View;:GetRequest_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DXEditors.a\n" +
+			"n_update:(Landroid/view/View;I)V:GetUpdate_Landroid_view_View_IHandler:DevExpress.Android.Editors.Pickers.Providers.IDayOfWeekViewProviderInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.DayOfWeekViewProvider, DevExpress.Maui.Editors", DayOfWeekViewProvider.class, __md_methods);
 	}

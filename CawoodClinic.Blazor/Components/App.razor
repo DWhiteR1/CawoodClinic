@@ -1,22 +1,21 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <base href="/" />
-    @* <link rel="stylesheet" href="bootstrap/bootstrap.min.css" /> *@
-    <link rel="stylesheet" href="cerulean/bootstrap.min.css" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="CawoodClinic.Blazor.styles.css" />
-    <link rel="stylesheet" href="_content/DevExpress.Blazor.Themes/bootstrap-external.bs5.min.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="css/cerulean/bootstrap.min.css" rel="stylesheet" />
+    <link href="_content/DevExpress.Blazor.Themes/bootstrap-external.bs5.css" rel="stylesheet" asp-append-version="true" />
+
+    @DxResourceManager.RegisterScripts()
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="CawoodClinic.Blazor.styles.css" rel="stylesheet" />
     <HeadOutlet @rendermode="@RenderModeForPage" />
 </head>
-
 <body>
-    <Routes @rendermode="@RenderModeForPage" />
+    <Routes @rendermode="@RenderModeForPage"></Routes>
     <script src="_framework/blazor.web.js"></script>
+    <script src="scripts/appscrips.js"></script>
 </body>
 
 </html>

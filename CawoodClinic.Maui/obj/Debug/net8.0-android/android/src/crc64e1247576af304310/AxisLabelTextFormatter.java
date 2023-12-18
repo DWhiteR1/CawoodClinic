@@ -11,7 +11,7 @@ public class AxisLabelTextFormatter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_format:(Ljava/lang/Object;)Ljava/lang/String;:GetFormat_Ljava_lang_Object_Handler:DevExpress.Android.Charts.IAxisLabelTextFormatterInvoker, DevExpress.Android.Charts\n" +
+			"n_format:(Ljava/lang/Object;)Ljava/lang/String;:GetFormat_Ljava_lang_Object_Handler:DevExpress.Android.Charts.IAxisLabelTextFormatterInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.AxisLabelTextFormatter, DevExpress.Maui.Charts", AxisLabelTextFormatter.class, __md_methods);
 	}

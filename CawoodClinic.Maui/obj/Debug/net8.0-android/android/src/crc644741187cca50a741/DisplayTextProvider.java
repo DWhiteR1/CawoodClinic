@@ -11,7 +11,7 @@ public class DisplayTextProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_format:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;:GetFormat_Ljava_lang_CharSequence_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.IDisplayTextFormatterInvoker, DevExpress.Android.Editors\n" +
+			"n_format:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;:GetFormat_Ljava_lang_CharSequence_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.IDisplayTextFormatterInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Android.Internal.DisplayTextProvider, DevExpress.Maui.Editors", DisplayTextProvider.class, __md_methods);
 	}

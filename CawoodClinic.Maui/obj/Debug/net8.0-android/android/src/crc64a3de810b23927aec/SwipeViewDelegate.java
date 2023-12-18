@@ -11,7 +11,7 @@ public class SwipeViewDelegate
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_swipeItemTap:(IILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)V:GetSwipeItemTap_IILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerInvoker, DevExpress.Android.CollectionView\n" +
+			"n_swipeItemTap:(IILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)V:GetSwipeItemTap_IILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.ISwipeViewListenerInvoker, DXCollectionView.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.CollectionView.Android.Internal.SwipeViewDelegate, DevExpress.Maui.CollectionView", SwipeViewDelegate.class, __md_methods);
 	}

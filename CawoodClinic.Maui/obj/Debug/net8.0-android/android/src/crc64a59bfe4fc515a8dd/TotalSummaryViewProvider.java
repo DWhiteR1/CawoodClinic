@@ -12,8 +12,8 @@ public class TotalSummaryViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_canGet:(I)Z:GetCanGet_IHandler:DevExpress.Android.Grid.Providers.ITotalSummaryViewProviderInvoker, DevExpress.Android.Grid\n" +
-			"n_getTotalSummaryView:(Landroid/content/Context;I)Landroid/view/View;:GetGetTotalSummaryView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.ITotalSummaryViewProviderBaseInvoker, DevExpress.Android.Grid\n" +
+			"n_canGet:(I)Z:GetCanGet_IHandler:DevExpress.Android.Grid.Providers.ITotalSummaryViewProviderInvoker, DXGrid.a\n" +
+			"n_getTotalSummaryView:(Landroid/content/Context;I)Landroid/view/View;:GetGetTotalSummaryView_Landroid_content_Context_IHandler:DevExpress.Android.Grid.Providers.ITotalSummaryViewProviderBaseInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.TotalSummaryViewProvider, DevExpress.Maui.DataGrid", TotalSummaryViewProvider.class, __md_methods);
 	}

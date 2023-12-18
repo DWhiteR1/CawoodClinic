@@ -28,7 +28,7 @@ public class DataFormTimeEditor
 	{
 		super (p0, p1);
 		if (getClass () == DataFormTimeEditor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormTimeEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DevExpress.Android.Editors", this, new java.lang.Object[] { p0, p1 });
+			mono.android.TypeManager.Activate ("DevExpress.Maui.DataForm.Internal.DataFormTimeEditor, DevExpress.Maui.Editors", "Android.Views.View, Mono.Android:DevExpress.Android.Editors.DataForm.Protocols.DXDataFormEditorItemErrorProvider, DXEditors.a", this, new java.lang.Object[] { p0, p1 });
 		}
 	}
 

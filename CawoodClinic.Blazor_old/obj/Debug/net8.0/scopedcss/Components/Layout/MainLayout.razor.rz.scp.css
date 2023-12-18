@@ -1,0 +1,101 @@
+.page[b-614ln654bk] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main[b-614ln654bk] {
+    flex: 1;
+}
+
+.sidebar[b-614ln654bk] {
+    background: linear-gradient(to left, #6f8fb2, #3f658f);
+    }
+
+.content[b-614ln654bk] {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: calc(100vh - 3.5rem);
+}
+
+.top-row[b-614ln654bk] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-row[b-614ln654bk]  a, .top-row[b-614ln654bk]  .btn-link {
+    white-space: nowrap;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.top-row[b-614ln654bk]  a:hover, .top-row[b-614ln654bk]  .btn-link:hover {
+    text-decoration: underline;
+}
+
+.top-row[b-614ln654bk]  a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 640.98px) {
+    .top-row[b-614ln654bk] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-614ln654bk]  a, .top-row[b-614ln654bk]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-614ln654bk] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-614ln654bk] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-614ln654bk] {
+        position: sticky;
+        top: 0;
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+        z-index: 1;
+    }
+
+        .top-row.auth[b-614ln654bk]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
+}
+
+#blazor-error-ui[b-614ln654bk] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-614ln654bk] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }

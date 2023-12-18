@@ -11,7 +11,7 @@ public class ItemFormatterWrapper
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_format:(Ljava/lang/Object;)Ljava/lang/String;:GetFormat_Ljava_lang_Object_Handler:DevExpress.Android.Editors.ComboBoxEdit/IFormatterInvoker, DevExpress.Android.Editors\n" +
+			"n_format:(Ljava/lang/Object;)Ljava/lang/String;:GetFormat_Ljava_lang_Object_Handler:DevExpress.Android.Editors.ComboBoxEdit/IFormatterInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Android.Internal.ItemFormatterWrapper, DevExpress.Maui.Editors", ItemFormatterWrapper.class, __md_methods);
 	}

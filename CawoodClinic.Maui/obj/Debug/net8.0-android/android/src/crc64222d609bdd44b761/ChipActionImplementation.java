@@ -12,12 +12,12 @@ public class ChipActionImplementation
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCloseIconTap:()Z:GetOnCloseIconTapHandler:DevExpress.Android.Editors.IChipActionInvoker, DevExpress.Android.Editors\n" +
-			"n_onLayoutChanged:()V:GetOnLayoutChangedHandler:DevExpress.Android.Editors.IChipActionInvoker, DevExpress.Android.Editors\n" +
-			"n_onSingleTapConfirmed:()Z:GetOnSingleTapConfirmedHandler:DevExpress.Android.Editors.IChipActionInvoker, DevExpress.Android.Editors\n" +
-			"n_onDoubleTap:()Z:GetOnDoubleTapHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onLongPress:()Z:GetOnLongPressHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onSingleTapUp:()Z:GetOnSingleTapUpHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onCloseIconTap:()Z:GetOnCloseIconTapHandler:DevExpress.Android.Editors.IChipActionInvoker, DXEditors.a\n" +
+			"n_onLayoutChanged:()V:GetOnLayoutChangedHandler:DevExpress.Android.Editors.IChipActionInvoker, DXEditors.a\n" +
+			"n_onSingleTapConfirmed:()Z:GetOnSingleTapConfirmedHandler:DevExpress.Android.Editors.IChipActionInvoker, DXEditors.a\n" +
+			"n_onDoubleTap:()Z:GetOnDoubleTapHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
+			"n_onLongPress:()Z:GetOnLongPressHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
+			"n_onSingleTapUp:()Z:GetOnSingleTapUpHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.ChipActionImplementation, DevExpress.Maui.Editors", ChipActionImplementation.class, __md_methods);
 	}

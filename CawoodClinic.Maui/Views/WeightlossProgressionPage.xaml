@@ -98,6 +98,6 @@
             </dxc:Hint>
         </dxc:ChartView.Hint>
     </dxc:ChartView>
-        <Button Grid.Row="1" Text="Add Weight"/>
+        <Button Grid.Row="1" Text="Add Weight" Command="{Binding AddWeightCommand}"/>
     </Grid>
 </ContentPage>

@@ -12,8 +12,8 @@ public class StackedPointCustomColorizer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IStackedCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
-			"n_getColor:(Lcom/devexpress/dxcharts/ColoredStackedPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredStackedPointInfo_Handler:DevExpress.Android.Charts.IStackedCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
+			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IStackedCustomPointColorizerInvoker, DXCharts.a\n" +
+			"n_getColor:(Lcom/devexpress/dxcharts/ColoredStackedPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredStackedPointInfo_Handler:DevExpress.Android.Charts.IStackedCustomPointColorizerInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.StackedPointCustomColorizer, DevExpress.Maui.Charts", StackedPointCustomColorizer.class, __md_methods);
 	}

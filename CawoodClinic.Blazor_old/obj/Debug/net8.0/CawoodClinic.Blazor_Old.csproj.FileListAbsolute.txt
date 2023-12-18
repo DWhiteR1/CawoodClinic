@@ -1,0 +1,7 @@
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.csproj.AssemblyReference.cache
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.AssemblyInfoInputs.cache
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.AssemblyInfo.cs
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.csproj.CoreCompileInputs.cache
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Blazor_old\obj\Debug\net8.0\CawoodClinic.Blazor_Old.sourcelink.json

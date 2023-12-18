@@ -12,8 +12,8 @@ public class WeightedPointCustomColorizer
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IWeightedCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
-			"n_getColor:(Lcom/devexpress/dxcharts/ColoredWeightedPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredWeightedPointInfo_Handler:DevExpress.Android.Charts.IWeightedCustomPointColorizerInvoker, DevExpress.Android.Charts\n" +
+			"n_getLegendItemProvider:()Lcom/devexpress/dxcharts/LegendItemProvider;:GetGetLegendItemProviderHandler:DevExpress.Android.Charts.IWeightedCustomPointColorizerInvoker, DXCharts.a\n" +
+			"n_getColor:(Lcom/devexpress/dxcharts/ColoredWeightedPointInfo;)I:GetGetColor_Lcom_devexpress_dxcharts_ColoredWeightedPointInfo_Handler:DevExpress.Android.Charts.IWeightedCustomPointColorizerInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.WeightedPointCustomColorizer, DevExpress.Maui.Charts", WeightedPointCustomColorizer.class, __md_methods);
 	}

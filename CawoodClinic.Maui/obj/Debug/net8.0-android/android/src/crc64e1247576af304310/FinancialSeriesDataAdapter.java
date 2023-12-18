@@ -12,12 +12,12 @@ public class FinancialSeriesDataAdapter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getArgument:(I)Ljava/util/Date;:GetGetArgument_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getCloseValue:(I)D:GetGetCloseValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getHighValue:(I)D:GetGetHighValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getLowValue:(I)D:GetGetLowValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
-			"n_getOpenValue:(I)D:GetGetOpenValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DevExpress.Android.Charts\n" +
+			"n_getDataCount:()I:GetGetDataCountHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
+			"n_getArgument:(I)Ljava/util/Date;:GetGetArgument_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
+			"n_getCloseValue:(I)D:GetGetCloseValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
+			"n_getHighValue:(I)D:GetGetHighValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
+			"n_getLowValue:(I)D:GetGetLowValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
+			"n_getOpenValue:(I)D:GetGetOpenValue_IHandler:DevExpress.Android.Charts.IFinancialSeriesDataInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.FinancialSeriesDataAdapter, DevExpress.Maui.Charts", FinancialSeriesDataAdapter.class, __md_methods);
 	}

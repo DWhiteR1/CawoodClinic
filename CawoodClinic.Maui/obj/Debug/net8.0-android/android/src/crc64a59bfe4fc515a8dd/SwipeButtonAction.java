@@ -11,7 +11,7 @@ public class SwipeButtonAction
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTap:(I)V:GetOnTap_IHandler:DevExpress.Android.Grid.Providers.ISwipeButtonActionInvoker, DevExpress.Android.Grid\n" +
+			"n_onTap:(I)V:GetOnTap_IHandler:DevExpress.Android.Grid.Providers.ISwipeButtonActionInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.SwipeButtonAction, DevExpress.Maui.DataGrid", SwipeButtonAction.class, __md_methods);
 	}

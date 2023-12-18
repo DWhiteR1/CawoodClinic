@@ -11,9 +11,9 @@ public class TabsView_OnTabTappedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTabTapped:(I)Z:GetOnTabTapped_IHandler:DevExpress.Android.Navigation.TabsView/IOnTabTappedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onTabTapped:(I)Z:GetOnTabTapped_IHandler:DevExpress.Android.Navigation.TabsView/IOnTabTappedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabsView+IOnTabTappedListenerImplementor, DevExpress.Android.Navigation", TabsView_OnTabTappedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabsView+IOnTabTappedListenerImplementor, DXNavigation.a", TabsView_OnTabTappedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TabsView_OnTabTappedListenerImplementor
 	{
 		super ();
 		if (getClass () == TabsView_OnTabTappedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabsView+IOnTabTappedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabsView+IOnTabTappedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

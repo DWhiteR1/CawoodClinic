@@ -11,7 +11,7 @@ public class PointTextProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getText:(Lcom/devexpress/dxcharts/SeriesPointInfo;)Ljava/lang/String;:GetGetText_Lcom_devexpress_dxcharts_SeriesPointInfo_Handler:DevExpress.Android.Charts.IPointTextProviderInvoker, DevExpress.Android.Charts\n" +
+			"n_getText:(Lcom/devexpress/dxcharts/SeriesPointInfo;)Ljava/lang/String;:GetGetText_Lcom_devexpress_dxcharts_SeriesPointInfo_Handler:DevExpress.Android.Charts.IPointTextProviderInvoker, DXCharts.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Charts.Android.Internal.PointTextProvider, DevExpress.Maui.Charts", PointTextProvider.class, __md_methods);
 	}

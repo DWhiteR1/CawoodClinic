@@ -11,7 +11,7 @@ public class TextEditBaseHandler_2_OnTextChangedListener
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTextChanged:(Lcom/devexpress/editors/TextEditBase;Ljava/lang/CharSequence;)V:GetOnTextChanged_Lcom_devexpress_editors_TextEditBase_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.IOnTextChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onTextChanged:(Lcom/devexpress/editors/TextEditBase;Ljava/lang/CharSequence;)V:GetOnTextChanged_Lcom_devexpress_editors_TextEditBase_Ljava_lang_CharSequence_Handler:DevExpress.Android.Editors.IOnTextChangedListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.TextEditBaseHandler`2+OnTextChangedListener, DevExpress.Maui.Editors", TextEditBaseHandler_2_OnTextChangedListener.class, __md_methods);
 	}

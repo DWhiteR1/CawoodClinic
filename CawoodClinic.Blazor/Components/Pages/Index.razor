@@ -1,0 +1,49 @@
+﻿@page "/"
+@using CawoodClinic.Blazor.Data.Business
+@inject NavigationManager _navigationManager
+<PageTitle>Home</PageTitle>
+<AuthorizeView>
+    <Authorized>
+        <div class="welcome">
+            <DxGridLayout CssClass="welcome-gridlayout" RowSpacing="3rem">
+                <Rows>
+                    <DxGridLayoutRow Height="auto" Areas="calander"></DxGridLayoutRow>
+                </Rows>
+                <Items>
+                    <DxGridLayoutItem Area="calander" CssClass="calander">
+                        <Template>
+                            <DxScheduler @bind-StartDate="@StartDate"
+                                         DataStorage="@DataStorage"
+                                         CssClass="w-100">
+                                <DxSchedulerMonthView MonthCount="1" ShowWorkDaysOnly="false" CellMinWidth="120"></DxSchedulerMonthView>
+                            </DxScheduler>
+                        </Template>
+                    </DxGridLayoutItem>
+                </Items>
+            </DxGridLayout>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <RedirectToLogin />
+    </NotAuthorized>
+</AuthorizeView>
+@code {
+    DateTime StartDate { get; set; } = DateTime.Today;
+    DxSchedulerDataStorage DataStorage = new DxSchedulerDataStorage()
+        {
+            AppointmentsSource = DemoResourceDemoAppointmentCollection.GetDemoAppointments(),
+            AppointmentMappings = new DxSchedulerAppointmentMappings()
+            {
+                Type = "AppointmentType",
+                Start = "StartDate",
+                End = "EndDate",
+                Subject = "Caption",
+                AllDay = "AllDay",
+                Location = "Location",
+                Description = "Description",
+                LabelId = "Label",
+                StatusId = "Status",
+                RecurrenceInfo = "Recurrence"
+            }
+        };
+                            }

@@ -11,7 +11,7 @@ public class CustomAppearanceProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getCustomAppearance:(I)Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;:GetGetCustomAppearance_IHandler:DevExpress.Android.Grid.Models.Columns.ICustomAppearanceProviderInvoker, DevExpress.Android.Grid\n" +
+			"n_getCustomAppearance:(I)Lcom/devexpress/dxgrid/models/appearance/AppearanceBase;:GetGetCustomAppearance_IHandler:DevExpress.Android.Grid.Models.Columns.ICustomAppearanceProviderInvoker, DXGrid.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.DataGrid.Android.Internal.CustomAppearanceProvider, DevExpress.Maui.DataGrid", CustomAppearanceProvider.class, __md_methods);
 	}

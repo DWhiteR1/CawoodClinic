@@ -11,9 +11,9 @@ public class GridRecyclerViewScrollListener_OnScrollStateListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onScrolled:(II)V:GetOnScrolled_IIHandler:DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener/IOnScrollStateListenerInvoker, DevExpress.Android.Grid\n" +
+			"n_onScrolled:(II)V:GetOnScrolled_IIHandler:DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener/IOnScrollStateListenerInvoker, DXGrid.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener+IOnScrollStateListenerImplementor, DevExpress.Android.Grid", GridRecyclerViewScrollListener_OnScrollStateListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener+IOnScrollStateListenerImplementor, DXGrid.a", GridRecyclerViewScrollListener_OnScrollStateListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class GridRecyclerViewScrollListener_OnScrollStateListenerImplementor
 	{
 		super ();
 		if (getClass () == GridRecyclerViewScrollListener_OnScrollStateListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener+IOnScrollStateListenerImplementor, DevExpress.Android.Grid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Views.GridRecyclerViewScrollListener+IOnScrollStateListenerImplementor, DXGrid.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

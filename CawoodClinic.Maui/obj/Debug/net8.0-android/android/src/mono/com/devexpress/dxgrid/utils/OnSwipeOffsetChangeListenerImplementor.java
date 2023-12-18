@@ -11,9 +11,9 @@ public class OnSwipeOffsetChangeListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_rowSwipeOffsetChanged:()V:GetRowSwipeOffsetChangedHandler:DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerInvoker, DevExpress.Android.Grid\n" +
+			"n_rowSwipeOffsetChanged:()V:GetRowSwipeOffsetChangedHandler:DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerInvoker, DXGrid.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerImplementor, DevExpress.Android.Grid", OnSwipeOffsetChangeListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerImplementor, DXGrid.a", OnSwipeOffsetChangeListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class OnSwipeOffsetChangeListenerImplementor
 	{
 		super ();
 		if (getClass () == OnSwipeOffsetChangeListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerImplementor, DevExpress.Android.Grid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Grid.Utils.IOnSwipeOffsetChangeListenerImplementor, DXGrid.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

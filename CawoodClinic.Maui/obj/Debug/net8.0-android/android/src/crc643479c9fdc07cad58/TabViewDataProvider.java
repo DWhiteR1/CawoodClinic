@@ -11,16 +11,16 @@ public class TabViewDataProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getFragmentManager:()Ljava/lang/Object;:GetGetFragmentManagerHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_setFragmentManager:(Ljava/lang/Object;)V:GetSetFragmentManager_Ljava_lang_Object_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_isFragmentAdapter:()Z:GetIsFragmentAdapterHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_getItemsCount:()I:GetGetItemsCountHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_addItemsSetChangedListener:(Lcom/devexpress/navigation/tabcontrol/ITabControlAdapter$ItemsChangedListener;)V:GetAddItemsSetChangedListener_Lcom_devexpress_navigation_tabcontrol_ITabControlAdapter_ItemsChangedListener_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_clearItemsSetChangedListener:()V:GetClearItemsSetChangedListenerHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_getFragment:(I)Ljava/lang/Object;:GetGetFragment_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_getHeaderView:(Landroid/view/ViewGroup;I)Lcom/devexpress/navigation/tabs/models/HeaderItemModel;:GetGetHeaderView_Landroid_view_ViewGroup_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_getHeaderViews:(Landroid/view/ViewGroup;)Ljava/util/List;:GetGetHeaderViews_Landroid_view_ViewGroup_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
-			"n_getView:(Landroid/view/ViewGroup;I)Landroid/view/View;:GetGetView_Landroid_view_ViewGroup_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DevExpress.Android.Navigation\n" +
+			"n_getFragmentManager:()Ljava/lang/Object;:GetGetFragmentManagerHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_setFragmentManager:(Ljava/lang/Object;)V:GetSetFragmentManager_Ljava_lang_Object_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_isFragmentAdapter:()Z:GetIsFragmentAdapterHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_getItemsCount:()I:GetGetItemsCountHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_addItemsSetChangedListener:(Lcom/devexpress/navigation/tabcontrol/ITabControlAdapter$ItemsChangedListener;)V:GetAddItemsSetChangedListener_Lcom_devexpress_navigation_tabcontrol_ITabControlAdapter_ItemsChangedListener_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_clearItemsSetChangedListener:()V:GetClearItemsSetChangedListenerHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_getFragment:(I)Ljava/lang/Object;:GetGetFragment_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_getHeaderView:(Landroid/view/ViewGroup;I)Lcom/devexpress/navigation/tabs/models/HeaderItemModel;:GetGetHeaderView_Landroid_view_ViewGroup_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_getHeaderViews:(Landroid/view/ViewGroup;)Ljava/util/List;:GetGetHeaderViews_Landroid_view_ViewGroup_Handler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
+			"n_getView:(Landroid/view/ViewGroup;I)Landroid/view/View;:GetGetView_Landroid_view_ViewGroup_IHandler:DevExpress.Android.Navigation.Tabcontrol.ITabControlAdapterInvoker, DXNavigation.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Controls.Android.Internal.TabViewDataProvider, DevExpress.Maui.Controls", TabViewDataProvider.class, __md_methods);
 	}

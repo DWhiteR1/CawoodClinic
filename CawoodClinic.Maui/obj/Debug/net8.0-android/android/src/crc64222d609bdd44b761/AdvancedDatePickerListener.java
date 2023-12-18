@@ -11,8 +11,8 @@ public class AdvancedDatePickerListener
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_dismiss:()V:GetDismissHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_dismiss:()V:GetDismissHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DXEditors.a\n" +
+			"n_show:()V:GetShowHandler:DevExpress.Android.Editors.IDateEditPickerListenerInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Internal.AdvancedDatePickerListener, DevExpress.Maui.Editors", AdvancedDatePickerListener.class, __md_methods);
 	}

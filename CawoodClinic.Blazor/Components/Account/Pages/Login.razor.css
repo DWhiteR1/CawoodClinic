@@ -2,3 +2,8 @@
 .custom-height {
     height: calc(100vh); /* Subtracting 50 pixels from the viewport height */
 }
+.logindialog {
+   background-image: linear-gradient(180deg, var(--bs-primary) 0%, var(--bs-black) 150%);
+    border-radius: 1rem;
+     /*background: linear-gradient(to bottom, #6f8fb2, #3f658f);*/
+}

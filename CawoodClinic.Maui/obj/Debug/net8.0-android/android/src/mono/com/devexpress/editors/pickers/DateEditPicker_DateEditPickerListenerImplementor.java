@@ -11,12 +11,12 @@ public class DateEditPicker_DateEditPickerListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onActiveViewChanged:(Lcom/devexpress/editors/pickers/DateEditPicker;I)V:GetOnActiveViewChanged_Lcom_devexpress_editors_pickers_DateEditPicker_IHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onDayCellTap:(Lcom/devexpress/editors/pickers/DateEditPicker;III)V:GetOnDayCellTap_Lcom_devexpress_editors_pickers_DateEditPicker_IIIHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onDisplayYearMonthChanged:(Lcom/devexpress/editors/pickers/DateEditPicker;II)V:GetOnDisplayYearMonthChanged_Lcom_devexpress_editors_pickers_DateEditPicker_IIHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onSizeChanged:()V:GetOnSizeChangedHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onActiveViewChanged:(Lcom/devexpress/editors/pickers/DateEditPicker;I)V:GetOnActiveViewChanged_Lcom_devexpress_editors_pickers_DateEditPicker_IHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DXEditors.a\n" +
+			"n_onDayCellTap:(Lcom/devexpress/editors/pickers/DateEditPicker;III)V:GetOnDayCellTap_Lcom_devexpress_editors_pickers_DateEditPicker_IIIHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DXEditors.a\n" +
+			"n_onDisplayYearMonthChanged:(Lcom/devexpress/editors/pickers/DateEditPicker;II)V:GetOnDisplayYearMonthChanged_Lcom_devexpress_editors_pickers_DateEditPicker_IIHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DXEditors.a\n" +
+			"n_onSizeChanged:()V:GetOnSizeChangedHandler:DevExpress.Android.Editors.Pickers.DateEditPicker/IDateEditPickerListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.Pickers.DateEditPicker+IDateEditPickerListenerImplementor, DevExpress.Android.Editors", DateEditPicker_DateEditPickerListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.Pickers.DateEditPicker+IDateEditPickerListenerImplementor, DXEditors.a", DateEditPicker_DateEditPickerListenerImplementor.class, __md_methods);
 	}
 
 
@@ -24,7 +24,7 @@ public class DateEditPicker_DateEditPickerListenerImplementor
 	{
 		super ();
 		if (getClass () == DateEditPicker_DateEditPickerListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Pickers.DateEditPicker+IDateEditPickerListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.Pickers.DateEditPicker+IDateEditPickerListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

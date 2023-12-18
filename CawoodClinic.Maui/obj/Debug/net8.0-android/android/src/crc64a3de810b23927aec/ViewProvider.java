@@ -12,18 +12,23 @@ public class ViewProvider
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_getItemCount:()I:GetGetItemCountHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_checkView:(Landroid/view/View;I)Z:GetCheckView_Landroid_view_View_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getViewByIndex:(I)Landroid/view/View;:GetGetViewByIndex_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getViewTypeByIndex:(I)I:GetGetViewTypeByIndex_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_recycleView:(Landroid/view/View;II)V:GetRecycleView_Landroid_view_View_IIHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_updateView:(Landroid/view/View;I)V:GetUpdateView_Landroid_view_View_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getAllowFullSwipe:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/lang/Boolean;:GetGetAllowFullSwipe_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getSwipeViewColors:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViewColors_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getSwipeViewSizes:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViewSizes_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_getSwipeViews:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViews_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_isSwipeAllowed:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/lang/Boolean;:GetIsSwipeAllowed_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
-			"n_recycleViews:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;Ljava/util/List;)V:GetRecycleViews_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Ljava_util_List_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DevExpress.Android.CollectionView\n" +
+			"n_isItemsSourceGrouped:()Z:GetIsItemsSourceGroupedHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getItemCount:()I:GetGetItemCountHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_calculateNodePosition:(I)I:GetCalculateNodePosition_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_checkView:(Landroid/view/View;I)Z:GetCheckView_Landroid_view_View_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getEndVisibleIndexInNodeByItem:(I)I:GetGetEndVisibleIndexInNodeByItem_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getStartVisibleIndexInNode:(I)I:GetGetStartVisibleIndexInNode_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getStartVisibleIndexInNodeByItem:(I)I:GetGetStartVisibleIndexInNodeByItem_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getViewByIndex:(I)Landroid/view/View;:GetGetViewByIndex_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getViewTypeByIndex:(I)I:GetGetViewTypeByIndex_IHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_recycleView:(Landroid/view/View;II)V:GetRecycleView_Landroid_view_View_IIHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_updateView:(Landroid/view/View;II)V:GetUpdateView_Landroid_view_View_IIHandler:DevExpress.Android.CollectionView.Core.IDXListItemViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getAllowFullSwipe:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/lang/Boolean;:GetGetAllowFullSwipe_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getSwipeViewColors:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViewColors_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getSwipeViewSizes:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViewSizes_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
+			"n_getSwipeViews:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/util/List;:GetGetSwipeViews_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
+			"n_isSwipeAllowed:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;)Ljava/lang/Boolean;:GetIsSwipeAllowed_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
+			"n_recycleViews:(ILcom/devexpress/dxlistview/swipes/DXSwipeGroup;Ljava/util/List;)V:GetRecycleViews_ILcom_devexpress_dxlistview_swipes_DXSwipeGroup_Ljava_util_List_Handler:DevExpress.Android.CollectionView.Swipes.IDXSwipeItemsViewProviderInvoker, DXCollectionView.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.CollectionView.Android.Internal.ViewProvider, DevExpress.Maui.CollectionView", ViewProvider.class, __md_methods);
 	}
@@ -38,6 +43,14 @@ public class ViewProvider
 	}
 
 
+	public boolean isItemsSourceGrouped ()
+	{
+		return n_isItemsSourceGrouped ();
+	}
+
+	private native boolean n_isItemsSourceGrouped ();
+
+
 	public int getItemCount ()
 	{
 		return n_getItemCount ();
@@ -46,12 +59,44 @@ public class ViewProvider
 	private native int n_getItemCount ();
 
 
+	public int calculateNodePosition (int p0)
+	{
+		return n_calculateNodePosition (p0);
+	}
+
+	private native int n_calculateNodePosition (int p0);
+
+
 	public boolean checkView (android.view.View p0, int p1)
 	{
 		return n_checkView (p0, p1);
 	}
 
 	private native boolean n_checkView (android.view.View p0, int p1);
+
+
+	public int getEndVisibleIndexInNodeByItem (int p0)
+	{
+		return n_getEndVisibleIndexInNodeByItem (p0);
+	}
+
+	private native int n_getEndVisibleIndexInNodeByItem (int p0);
+
+
+	public int getStartVisibleIndexInNode (int p0)
+	{
+		return n_getStartVisibleIndexInNode (p0);
+	}
+
+	private native int n_getStartVisibleIndexInNode (int p0);
+
+
+	public int getStartVisibleIndexInNodeByItem (int p0)
+	{
+		return n_getStartVisibleIndexInNodeByItem (p0);
+	}
+
+	private native int n_getStartVisibleIndexInNodeByItem (int p0);
 
 
 	public android.view.View getViewByIndex (int p0)
@@ -78,12 +123,12 @@ public class ViewProvider
 	private native void n_recycleView (android.view.View p0, int p1, int p2);
 
 
-	public void updateView (android.view.View p0, int p1)
+	public void updateView (android.view.View p0, int p1, int p2)
 	{
-		n_updateView (p0, p1);
+		n_updateView (p0, p1, p2);
 	}
 
-	private native void n_updateView (android.view.View p0, int p1);
+	private native void n_updateView (android.view.View p0, int p1, int p2);
 
 
 	public java.lang.Boolean getAllowFullSwipe (int p0, com.devexpress.dxlistview.swipes.DXSwipeGroup p1)

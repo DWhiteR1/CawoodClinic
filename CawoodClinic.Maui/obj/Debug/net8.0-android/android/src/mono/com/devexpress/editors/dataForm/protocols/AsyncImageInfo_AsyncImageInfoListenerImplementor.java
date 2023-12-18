@@ -11,9 +11,9 @@ public class AsyncImageInfo_AsyncImageInfoListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onImageLoaded:()V:GetOnImageLoadedHandler:DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo/IAsyncImageInfoListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onImageLoaded:()V:GetOnImageLoadedHandler:DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo/IAsyncImageInfoListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo+IAsyncImageInfoListenerImplementor, DevExpress.Android.Editors", AsyncImageInfo_AsyncImageInfoListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo+IAsyncImageInfoListenerImplementor, DXEditors.a", AsyncImageInfo_AsyncImageInfoListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class AsyncImageInfo_AsyncImageInfoListenerImplementor
 	{
 		super ();
 		if (getClass () == AsyncImageInfo_AsyncImageInfoListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo+IAsyncImageInfoListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.DataForm.Protocols.AsyncImageInfo+IAsyncImageInfoListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

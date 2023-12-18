@@ -11,11 +11,11 @@ public class BaseGestureListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onDoubleTap:()Z:GetOnDoubleTapHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onLongPress:()Z:GetOnLongPressHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
-			"n_onSingleTapUp:()Z:GetOnSingleTapUpHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onDoubleTap:()Z:GetOnDoubleTapHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
+			"n_onLongPress:()Z:GetOnLongPressHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
+			"n_onSingleTapUp:()Z:GetOnSingleTapUpHandler:DevExpress.Android.Editors.IBaseGestureListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IBaseGestureListenerImplementor, DevExpress.Android.Editors", BaseGestureListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IBaseGestureListenerImplementor, DXEditors.a", BaseGestureListenerImplementor.class, __md_methods);
 	}
 
 
@@ -23,7 +23,7 @@ public class BaseGestureListenerImplementor
 	{
 		super ();
 		if (getClass () == BaseGestureListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IBaseGestureListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IBaseGestureListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

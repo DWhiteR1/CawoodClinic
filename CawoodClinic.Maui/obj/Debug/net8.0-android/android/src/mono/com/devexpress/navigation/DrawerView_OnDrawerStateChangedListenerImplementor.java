@@ -11,9 +11,9 @@ public class DrawerView_OnDrawerStateChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_OnDrawerStateChanged:(Z)V:GetOnDrawerStateChanged_ZHandler:DevExpress.Android.Navigation.DrawerView/IOnDrawerStateChangedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_OnDrawerStateChanged:(Z)V:GetOnDrawerStateChanged_ZHandler:DevExpress.Android.Navigation.DrawerView/IOnDrawerStateChangedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.DrawerView+IOnDrawerStateChangedListenerImplementor, DevExpress.Android.Navigation", DrawerView_OnDrawerStateChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.DrawerView+IOnDrawerStateChangedListenerImplementor, DXNavigation.a", DrawerView_OnDrawerStateChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class DrawerView_OnDrawerStateChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == DrawerView_OnDrawerStateChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.DrawerView+IOnDrawerStateChangedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.DrawerView+IOnDrawerStateChangedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

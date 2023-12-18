@@ -11,9 +11,9 @@ public class DropDownStateChangedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onDropDownStateChanged:(Lcom/devexpress/editors/EditBase;Z)V:GetOnDropDownStateChanged_Lcom_devexpress_editors_EditBase_ZHandler:DevExpress.Android.Editors.IDropDownStateChangedListenerInvoker, DevExpress.Android.Editors\n" +
+			"n_onDropDownStateChanged:(Lcom/devexpress/editors/EditBase;Z)V:GetOnDropDownStateChanged_Lcom_devexpress_editors_EditBase_ZHandler:DevExpress.Android.Editors.IDropDownStateChangedListenerInvoker, DXEditors.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Editors.IDropDownStateChangedListenerImplementor, DevExpress.Android.Editors", DropDownStateChangedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Editors.IDropDownStateChangedListenerImplementor, DXEditors.a", DropDownStateChangedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class DropDownStateChangedListenerImplementor
 	{
 		super ();
 		if (getClass () == DropDownStateChangedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IDropDownStateChangedListenerImplementor, DevExpress.Android.Editors", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Editors.IDropDownStateChangedListenerImplementor, DXEditors.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

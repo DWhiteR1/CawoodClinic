@@ -11,9 +11,9 @@ public class TabControl_OnTabItemSelectedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTabItemSelected:(II)V:GetOnTabItemSelected_IIHandler:DevExpress.Android.Navigation.TabControl/IOnTabItemSelectedListenerInvoker, DevExpress.Android.Navigation\n" +
+			"n_onTabItemSelected:(II)V:GetOnTabItemSelected_IIHandler:DevExpress.Android.Navigation.TabControl/IOnTabItemSelectedListenerInvoker, DXNavigation.a\n" +
 			"";
-		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabControl+IOnTabItemSelectedListenerImplementor, DevExpress.Android.Navigation", TabControl_OnTabItemSelectedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("DevExpress.Android.Navigation.TabControl+IOnTabItemSelectedListenerImplementor, DXNavigation.a", TabControl_OnTabItemSelectedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TabControl_OnTabItemSelectedListenerImplementor
 	{
 		super ();
 		if (getClass () == TabControl_OnTabItemSelectedListenerImplementor.class) {
-			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabControl+IOnTabItemSelectedListenerImplementor, DevExpress.Android.Navigation", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("DevExpress.Android.Navigation.TabControl+IOnTabItemSelectedListenerImplementor, DXNavigation.a", "", this, new java.lang.Object[] {  });
 		}
 	}
 

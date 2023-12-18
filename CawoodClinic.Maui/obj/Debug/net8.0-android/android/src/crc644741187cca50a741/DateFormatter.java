@@ -11,7 +11,7 @@ public class DateFormatter
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_format:(III)Ljava/lang/CharSequence;:GetFormat_IIIHandler:DevExpress.Android.Editors.IDateFormatterInvoker, DevExpress.Android.Editors\n" +
+			"n_format:(III)Ljava/lang/CharSequence;:GetFormat_IIIHandler:DevExpress.Android.Editors.IDateFormatterInvoker, DXEditors.a\n" +
 			"";
 		mono.android.Runtime.register ("DevExpress.Maui.Editors.Android.Internal.DateFormatter, DevExpress.Maui.Editors", DateFormatter.class, __md_methods);
 	}

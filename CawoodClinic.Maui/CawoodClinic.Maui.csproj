@@ -59,7 +59,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.0" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.1" />
+		<PackageReference Include="CommunityToolkit.Maui.Core" Version="7.0.1" />
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
 		  <PrivateAssets>all</PrivateAssets>
@@ -75,25 +76,25 @@
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-android'">
 	  <PackageReference Include="DevExpress.Maui.Charts">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.CollectionView">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.Controls">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.DataGrid">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.DataGrid.Export">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.Editors">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	  <PackageReference Include="DevExpress.Maui.Scheduler">
-	    <Version>23.1.6</Version>
+	    <Version>23.2.3</Version>
 	  </PackageReference>
 	</ItemGroup>
 
@@ -126,13 +127,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Popups\Views\WeightPickerPopupView.xaml.cs">
+	    <DependentUpon>WeightPickerPopupView.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Views\WeightlossProgressionPage.xaml.cs">
 	    <DependentUpon>WeightlossProgressionPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Popups\WeightPickerPopup.xaml">
+	  <MauiXaml Update="Popups\Views\WeightPickerPopupView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\WeightlossProgressionPage.xaml">
