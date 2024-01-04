@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CawoodClinic.Shared", "Cawo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CawoodClinic.Blazor", "CawoodClinic.Blazor\CawoodClinic.Blazor.csproj", "{EBD92C6A-8C93-42DA-B8C9-E1BB85CAAD72}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CawoodClinic.Blazor_Old", "CawoodClinic.Blazor_old\CawoodClinic.Blazor_Old.csproj", "{DA39435F-23F5-4FAB-968A-08F12F592BDD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,10 +29,6 @@ Global
 		{EBD92C6A-8C93-42DA-B8C9-E1BB85CAAD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD92C6A-8C93-42DA-B8C9-E1BB85CAAD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD92C6A-8C93-42DA-B8C9-E1BB85CAAD72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA39435F-23F5-4FAB-968A-08F12F592BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA39435F-23F5-4FAB-968A-08F12F592BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA39435F-23F5-4FAB-968A-08F12F592BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA39435F-23F5-4FAB-968A-08F12F592BDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

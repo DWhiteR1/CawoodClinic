@@ -44,6 +44,9 @@
                                             <DxMenuItem NavigateUrl="/areaspage" Text="Areas" CssClass="menu-item" IconCssClass="icon home-icon"></DxMenuItem>
                                             <DxMenuItem NavigateUrl="/counter" Text="Counter" CssClass="menu-item" IconCssClass="icon counter-icon"></DxMenuItem>
                                         </AuthorizeView>
+                                        <AuthorizeView Context="MaintainPatients" Policy="CanMaintainPatients">
+                                            <DxMenuItem NavigateUrl="/patients" Text="Patients" CssClass="menu-item" IconCssClass="icon home-icon"></DxMenuItem>
+                                        </AuthorizeView>
                                         <div class="nav-item px-3">
                                             <form id="logoutForm" action="Account/Logout" method="post">
                                                 <AntiforgeryToken />

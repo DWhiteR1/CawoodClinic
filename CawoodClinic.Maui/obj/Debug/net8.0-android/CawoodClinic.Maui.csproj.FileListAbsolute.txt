@@ -353,7 +353,6 @@ C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\ne
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Private.ServiceModel.dll
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Private.ServiceModel.pdb
@@ -1325,3 +1324,4 @@ C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\ne
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\DeanW\source\repos\DWhiteR1\CawoodClinic\CawoodClinic.Maui\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll

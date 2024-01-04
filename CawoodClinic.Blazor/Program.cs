@@ -51,7 +51,7 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("CanMaintainUsers", policy => policy.RequireClaim("Permission", "CanMaintainUsers"));
     options.AddPolicy("CanMaintainAreas", policy => policy.RequireClaim("Permission", "CanMaintainAreas"));
-    options.AddPolicy("CanSendAccountDetails", policy => policy.RequireClaim("Permission", "CanSendAccountDetails"));
+    options.AddPolicy("CanMaintainPatients", policy => policy.RequireClaim("Permission", "CanMaintainPatients"));
     options.AddPolicy("CanMaintainCompanies", policy => policy.RequireClaim("Permission", "CanMaintainCompanies"));
     options.AddPolicy("CanViewAccountDetails", policy => policy.RequireClaim("Permission", "CanViewAccountDetails"));
     options.AddPolicy("CanViewCompanies", policy => policy.RequireClaim("Permission", "CanViewCompanies"));
@@ -64,9 +64,9 @@ builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSe
 
 builder.Services.AddDevExpressBlazor(options => {
     options.BootstrapVersion = DevExpress.Blazor.BootstrapVersion.v5;
-    options.SizeMode = DevExpress.Blazor.SizeMode.Medium;
+    options.SizeMode = DevExpress.Blazor.SizeMode.Small;
 });
-builder.Services.AddSingleton<WeatherForecastService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

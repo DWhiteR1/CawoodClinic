@@ -1,0 +1,154 @@
+﻿@page "/patients"
+@implements IDisposable;
+
+@inject IDbContextFactory<ApplicationDbContext> DbFactory;
+@inject AuthenticationStateProvider AuthenticationStateProvider;
+@inject NavigationManager NavigationManager;
+
+<DxGrid Data="@GridDataSource" 
+        ShowGroupPanel="true" 
+        ShowFilterRow="true"
+        KeyboardNavigationEnabled="true"
+        VirtualScrollingEnabled="true"
+        FocusedRowEnabled="true"
+        EditMode="GridEditMode.EditForm"
+        EditModelSaving="Grid_EditModelSaving"
+        DataItemDeleting="Grid_DataItemDeleting"
+        CssClass="h-100">
+    <Columns>
+        <DxGridCommandColumn Width="160px" />
+        <DxGridDataColumn FieldName="Name" />
+        <DxGridDataColumn FieldName="Surname" />
+        <DxGridDataColumn FieldName="DateOfBirth" DisplayFormat="d" />
+        <DxGridDataColumn FieldName="Gender"  />
+        <DxGridDataColumn FieldName="IdNumber" />
+        <DxGridDataColumn FieldName="ContactNumber" />
+        <DxGridDataColumn FieldName="EmailAddress" />
+        <DxGridDataColumn FieldName="PhysicalAddress" />
+        <DxGridDataColumn FieldName="Region.Name" />
+    </Columns>
+    <EditFormTemplate Context="EditFormContext">
+        @{
+            var patient = (Patient)EditFormContext.EditModel;
+        }
+        <DxFormLayout CssClass="w-100">
+            <DxFormLayoutItem Caption="Name:" ColSpanMd="6">
+                @EditFormContext.GetEditor("Name")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Surname:" ColSpanMd="6">
+                @EditFormContext.GetEditor("Surname")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Date of Birth:" ColSpanMd="6">
+                @EditFormContext.GetEditor("DateOfBirth")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Gender:" ColSpanMd="6">
+                @EditFormContext.GetEditor("Gender")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Id Number:" ColSpanMd="6">
+                @EditFormContext.GetEditor("IdNumber")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Contact Number:" ColSpanMd="6">
+                @EditFormContext.GetEditor("ContactNumber")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Email Address:" ColSpanMd="6">
+                @EditFormContext.GetEditor("EmailAddress")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Physical Address:" ColSpanMd="6">
+                @EditFormContext.GetEditor("PhysicalAddress")
+            </DxFormLayoutItem>
+            <DxFormLayoutItem Caption="Region:" ColSpanMd="6">
+                <DxComboBox Data="@UserRegions"
+                            NullText="Select Region..."
+                            FilteringMode="DataGridFilteringMode.Contains"
+                            TextFieldName="Name"
+                            ValueFieldName="Id"
+                            @bind-Value="@patient.RegionId">
+                </DxComboBox>
+            </DxFormLayoutItem>
+        </DxFormLayout>
+    </EditFormTemplate>
+</DxGrid>
+
+
+@code {
+
+    ApplicationDbContext? Context;
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+    IQueryable<Patient>? userPatients { get; set; }
+    List<Region> UserRegions { get; set; }
+
+    Patient? seletedPatient { get; set; }
+    object GridDataSource { get; set; }
+
+    private string userId { get; set; } = string.Empty;
+
+    protected override async Task OnInitializedAsync()
+    {
+         if (authenticationState is not null)
+        {
+            try
+            {
+                var authState = await authenticationState;
+                var user = authState?.User;
+
+
+                if (user is not null && user.Identity is not null && user.Identity.IsAuthenticated)
+                {
+                    var userClaim = user.FindFirst(c => c.Type == ClaimTypes.NameIdentifier);
+                    if (userClaim is not null)
+                    {
+                        userId = userClaim.Value;
+                    }  
+
+
+                    Context = DbFactory.CreateDbContext();
+
+                    if (Context is not null && Context.Patients is not null)
+                    {
+                        userPatients = (Context.GetUserPatients(userId)).AsQueryable();
+                        GridDataSource = new GridDevExtremeDataSource<Patient>(userPatients);
+                       
+                        UserRegions = Context.GetUserRegions(userId).ToList();
+                        seletedPatient = userPatients.FirstOrDefault();
+
+                        var test = UserRegions.ToList();
+
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+        await base.OnInitializedAsync();
+    }
+
+    async Task Grid_EditModelSaving(GridEditModelSavingEventArgs e)
+    {
+        if (e.IsNew)
+        {
+            _ = await Context.AddPatientAsync((Patient)e.EditModel);
+        }
+        else
+        {
+            _ = await Context.UpdatePatientAsync((Patient)e.EditModel);
+        }
+        // await UpdateDataAsync();
+    }
+    async Task Grid_DataItemDeleting(GridDataItemDeletingEventArgs e)
+    {
+        //await UpdateDataAsync();
+    }
+    // async Task UpdateDataAsync()
+    // {
+    // }
+
+
+    public void Dispose()
+    {
+        Context?.Dispose();
+    }
+}

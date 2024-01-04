@@ -9,8 +9,6 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 
     public virtual DbSet<AppointmentStatus> AppointmentStatuses { get; set; }
 
-    public virtual DbSet<Dbsync> Dbsyncs { get; set; }
-
     public virtual DbSet<Measurement> Measurements { get; set; }
 
     public virtual DbSet<MeasurementType> MeasurementTypes { get; set; }
@@ -123,14 +121,13 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Name).HasMaxLength(100);
 
-            entity.HasOne(d => d.Parent).WithMany(p => p.InverseParent)
+            entity.HasOne(d => d.Parent).WithMany(p => p.ChildRegions)
                 .HasForeignKey(d => d.ParentId)
                 .HasConstraintName("FK_Regions_Regions");
         });
-
+        modelBuilder.SetCaseInsensitiveSearchesForSQLite();
         base.OnModelCreating(modelBuilder);
     }
-
 }
 
 

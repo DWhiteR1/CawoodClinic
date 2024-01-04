@@ -15,7 +15,7 @@ public partial class Region
 
     public bool IsDeleted { get; set; }
 
-    public virtual ICollection<Region> InverseParent { get; set; } = new List<Region>();
+    public virtual ICollection<Region> ChildRegions { get; set; } = new List<Region>();
 
     public virtual Region Parent { get; set; }
 

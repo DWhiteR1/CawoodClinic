@@ -155,9 +155,25 @@
               "version": "[8.0.0, )",
               "autoReferenced": true
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -256,9 +272,25 @@
               "version": "[8.0.0, )",
               "autoReferenced": true
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -329,9 +361,25 @@
               "version": "[8.0.0, )",
               "autoReferenced": true
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
@@ -397,9 +445,25 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "OneOf": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "OneOf.SourceGenerator": {
+              "target": "Package",
+              "version": "[3.0.263, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
