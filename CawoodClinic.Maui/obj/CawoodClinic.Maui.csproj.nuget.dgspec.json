@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj": {}
+    "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj": {
+    "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj",
+        "projectUniqueName": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj",
         "projectName": "CawoodClinic.Maui",
-        "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj",
-        "packagesPath": "C:\\Users\\DeanW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Maui\\obj\\",
+        "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Maui\\CawoodClinic.Maui.csproj",
+        "packagesPath": "C:\\Users\\Dean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Maui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DeanW\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\Dean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-android",
@@ -35,44 +37,44 @@
           "net8.0-windows10.0.19041.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/rhBSX4cNRVwE3QMLdzBiCnMtgHrYhtyTpLlUMhUAhZDJU9Xp8f/api": {}
+          "https://nuget.devexpress.com/o63G2ibdd31ws3NjkFnwz7A3zfvA8yg8FMruyhl16BOWBDL7u9/api": {}
         },
         "frameworks": {
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
-                "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
+              "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
+                "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
               }
             }
           },
           "net8.0-ios17.0": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
-                "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
+              "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
+                "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
               }
             }
           },
           "net8.0-maccatalyst17.0": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
-                "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
+              "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
+                "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
-                "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
+              "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
+                "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj"
               }
             }
           }
@@ -522,40 +524,42 @@
         }
       }
     },
-    "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
+    "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
         "projectName": "CawoodClinic.Shared",
-        "projectPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
-        "packagesPath": "C:\\Users\\DeanW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
+        "packagesPath": "C:\\Users\\Dean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
           "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DeanW\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Users\\Dean\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/rhBSX4cNRVwE3QMLdzBiCnMtgHrYhtyTpLlUMhUAhZDJU9Xp8f/api": {}
+          "https://nuget.devexpress.com/o63G2ibdd31ws3NjkFnwz7A3zfvA8yg8FMruyhl16BOWBDL7u9/api": {}
         },
         "frameworks": {
           "net8.0": {

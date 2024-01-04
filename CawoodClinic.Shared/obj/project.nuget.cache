@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "4gGKM87/Ny9/HL6hKkOcGJ8kGBRNxq6tDsZZzPA31+R0MgcVstAdGrNaRoV0KPlDRIUrX/ZoMteCuD0qWL8m+Q==",
+  "dgSpecHash": "nzdUXwrelldqVGaED9eCMTmJxqt4MUiyIows5SogwPcfkIAlp/XtACvrNFRopnJIDFoXJ/yA7fMPKRr6GG0ZBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DeanW\\source\\repos\\DWhiteR1\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Dean\\OneDrive\\Dev\\CawoodClinic\\CawoodClinic.Shared\\CawoodClinic.Shared.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DeanW\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\oneof\\3.0.263\\oneof.3.0.263.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\oneof.sourcegenerator\\3.0.263\\oneof.sourcegenerator.3.0.263.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
-    "C:\\Users\\DeanW\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+    "C:\\Users\\Dean\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\oneof\\3.0.263\\oneof.3.0.263.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\oneof.sourcegenerator\\3.0.263\\oneof.sourcegenerator.3.0.263.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\Dean\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }
