@@ -1,8 +1,11 @@
-﻿using CawoodClinic.Shared.Authentication;
+﻿using CawoodClinic.Blazor.Auth.Models;
+using CawoodClinic.Blazor.Models;
+using CawoodClinic.Shared.Authentication;
 using CawoodClinic.Shared.Constants;
 using CawoodClinic.Shared.Message;
 using CawoodClinic.Shared.User;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 

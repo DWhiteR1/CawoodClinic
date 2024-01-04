@@ -1,4 +1,5 @@
-﻿using CawoodClinic.Blazor.Services;
+﻿using CawoodClinic.Blazor.Auth;
+using CawoodClinic.Blazor.Services;
 using CawoodClinic.Shared.Authentication;
 using CawoodClinic.Shared.Serialization;
 using Microsoft.AspNetCore.Identity;
@@ -109,5 +110,25 @@ namespace CawoodClinic.Blazor.ApiEndpoints
                 return new JsonContentResult(refreshTokenOneOfSerialized, "application/json", StatusCodes.Status200OK);
             }
         }
+    }
+}
+public class JsonContentResult : IResult
+{
+    public string Content { get; }
+    public string ContentType { get; }
+    public int StatusCode { get; }
+
+    public JsonContentResult(string content, string contentType, int statusCode)
+    {
+        Content = content;
+        ContentType = contentType;
+        StatusCode = statusCode;
+    }
+
+    public Task ExecuteAsync(HttpContext httpContext)
+    {
+        httpContext.Response.ContentType = ContentType;
+        httpContext.Response.StatusCode = StatusCode;
+        return httpContext.Response.WriteAsync(Content);
     }
 }

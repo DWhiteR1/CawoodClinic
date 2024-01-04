@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using CawoodClinic.Blazor.Components.Account;
 using Microsoft.EntityFrameworkCore;
 using CawoodClinic.Blazor.Services;
+using CawoodClinic.Blazor.ApiEndpoints;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -85,5 +86,7 @@ app.MapRazorComponents<App>()
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
+app.AddAuthenticationEndpoints();
+app.AddSignalREndpoints();
 
 app.Run();
